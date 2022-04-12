@@ -14,21 +14,9 @@ Les moteurs de jeu sont des outils et/ou des collections de code qui ont été c
 
 Alors qu'un moteur de jeu vous oblige à apprendre le moteur lui-même, il vous protège d'une grande partie des tracas liés à l'apprentissage du développement sur toutes les myriades de plates-formes sur lesquelles vous souhaitez installer votre jeu. Voici, par exemple, quelques-unes des plates-formes sur lesquelles vous pouvez déployer/distribuer un jeu réalisé avec Unity :
 
-- WebGL
-- Windows
-- macOS
-- Linux
-- iOS/iPadOS
-- Android
-- Playstation
-- XBox
-- Nintendo Switch
-- Steam Deck
-- Oculus
-- Vive
-- (...)
+![Unity Platforms](unity-platforms.png)
 
-Comme vous pouvez le voir, la liste est longue et même incomplète. L'idée est donc qu'au lieu d'avoir à apprendre les détails techniques de chacune de ces plates-formes, tout ce dont vous avez besoin pour créer votre jeu est d'apprendre Unity et l'outil se chargera du reste.
+Comme vous pouvez le voir, la liste est longue et inclus probablement quelques plateformes inconnus. L'idée est donc qu'au lieu d'avoir à apprendre les détails techniques de chacune de ces plates-formes, tout ce dont vous avez besoin pour créer votre jeu est d'apprendre Unity et l'outil se chargera du reste.
 
 ### Exemples
 
@@ -84,3 +72,9 @@ La liste des jeux réalisés avec Unity est presque infinie. Voici quelques dém
 
 #### Untitled Goose Game
 (youtube: 9LL2AtHo1gk)
+
+#### World of Yoho
+(youtube: TMwueafxS6Y)
+
+#### Oniri Islands
+(youtube: VsC9u8bVpN0)
