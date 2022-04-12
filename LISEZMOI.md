@@ -1,6 +1,7 @@
 Ce tutoriel sur la création d'un projet Unity + Oculus a été crée pour le Master Media Design de la HEAD – Genève.
 
 - [Introduction](#Game-Engine)
+- [Exemples](#Exemples)
 - [Installation](00_installation)
 
 Ce didacticiel est disponible à la fois sur les [tutorials](https://abstractmachine.net/tutorials) du site d'[abstractmachine](https://abstractmachine.net/tutorials) et sur le [abstractmachine GitHub repository](https://github.com/abstractmachine/head-media-design-oculus).
@@ -29,7 +30,7 @@ Alors qu'un moteur de jeu vous oblige à apprendre le moteur lui-même, il vous 
 
 Comme vous pouvez le voir, la liste est longue et même incomplète. L'idée est donc qu'au lieu d'avoir à apprendre les détails techniques de chacune de ces plates-formes, tout ce dont vous avez besoin pour créer votre jeu est d'apprendre Unity et l'outil se chargera du reste.
 
-### Examples
+### Exemples
 
 La liste des jeux réalisés avec Unity est presque infinie. Voici quelques démonstrations Unity de jeux créés avec l'outil, ainsi que les bandes-annonces de quelques-uns des jeux les plus célèbres créés avec cet outil.
 
