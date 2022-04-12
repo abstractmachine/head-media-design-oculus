@@ -11,6 +11,8 @@ readme: LISEZMOI.md
 ----
 Text:
 
+Ce didacticiel est disponible à la fois sur les [tutorials](https://abstractmachine.net/tutorials) du site d'[abstractmachine](https://abstractmachine.net/tutorials) et sur le [abstractmachine GitHub repository](https://github.com/abstractmachine/head-media-design-oculus).
+
 ### Game Engine
 
 [Unity](https://unity.com/) est un « moteur de jeu », utilisé pour créer des jeux 2D, 3D, de réalité augmentée et de réalité virtuelle, ainsi que des expériences interactives en général. Ses concurrents les plus proches sont [Unreal Engine](https://www.unrealengine.com/en-US/) et le projet open source plus modeste [Godot](https://godotengine.org).
