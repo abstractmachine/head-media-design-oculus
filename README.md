@@ -90,7 +90,7 @@ This tutorial uses the [Oculus Quest](https://www.oculus.com/quest-2/) 1 & 2 hea
 (youtube: https://www.youtube.com/watch?v=g1bq32kjOKo)
 
 ### Virtual Haiku & The City of Tomorrow
-Starting during the 2020 confinement, my colleagues Marion Bareil and Pierre Rossel designed a series of courses ([Virtual Haiku](https://www.hesge.ch/head/en/projet/master-media-design-virtual-haiku) & [The City of Tomorrow](https://www.hesge.ch/head/en/project/vr-workshop-imagining-city-tomorrow)) around virtual reality headsets using the players' gaze as the primary mode of interaction. Here are a few projects from that course:
+Starting during the 2020 confinement, my colleagues Marion Bareil and Pierre Rossel designed a series of courses ([Virtual Haiku](https://www.hesge.ch/head/en/project/master-media-design-virtual-haiku) & [The City of Tomorrow](https://www.hesge.ch/head/en/project/vr-workshop-imagining-city-tomorrow)) around virtual reality headsets using the players' gaze as the primary mode of interaction. Here are a few projects from that course:
 
 (vimeo: https://vimeo.com/465320477)
 
