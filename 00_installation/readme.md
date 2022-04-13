@@ -76,3 +76,6 @@ One problem we had when pairing our Oculus headset to our Oculus app was finding
 The thing you are looking for is this blue button in developer mode (cf. above). If this button is active, then your app is paired with our headset and you should be good to go.
 
 ![Oculus developer mode button](oculus-developer-mode-button.jpg)
+
+### Activate Bluetooth
+A curious detail that we discovered when trying to pair with your Oculus: *you must have bluetooth active in your phone for the app to find the headset*. Apparently, Oculus uses bluetooth to find any Oculus devices nearby.

@@ -74,3 +74,6 @@ Un problème que nous avons rencontré lors du couplage de notre casque Oculus �
 Ce que vous cherchez, c'est ce bouton bleu en mode développeur (cf. ci-dessus). Si ce bouton est actif, votre application est associée à notre casque et vous devriez être prêt•e à jouer.
 
 ![Oculus developer mode button](oculus-developer-mode-button.jpg)
+
+### Activer Bluetooth
+Un détail curieux que nous avons découvert en essayant de coupler avec votre Oculus : *vous devez avoir le Bluetooth actif dans votre téléphone pour que l'application trouve le casque*. Apparemment, Oculus utilise Bluetooth pour trouver tous les appareils Oculus à proximité.
