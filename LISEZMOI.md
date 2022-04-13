@@ -1,4 +1,4 @@
-Ce tutoriel sur la création d'un projet Unity + Oculus a été crée pour le Master Media Design de la HEAD – Genève.
+Ce tutoriel sur la création d'un projet Unity + Oculus a été crée pour le [Master Media Media](https://www.hesge.ch/head/en/programs-research/master-arts-media-design) de la HEAD – Genève.
 
 - [Introduction](#Game-Engine)
 - [Exemples](#Exemples)

@@ -8,4 +8,3 @@ Unity is free, but requires an account to download and configure correctly. Go t
 ![Unity ID](unity-id.png)
 
 ### Unity Hub
-We always 

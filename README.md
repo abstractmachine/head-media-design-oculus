@@ -1,4 +1,4 @@
-This tutorial for building a Unity + Oculus project from scratch was created for HEAD – Genève.
+This tutorial for building a Unity + Oculus project from scratch was created for the [Master Media Media](https://www.hesge.ch/head/en/programs-research/master-arts-media-design), HEAD – Genève.
 
 - [Introduction](#Game-Engine)
 - [Examples](#Examples)

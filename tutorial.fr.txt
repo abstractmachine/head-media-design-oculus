@@ -5,7 +5,7 @@ Cover:
 Intro:
 Unity est le nom d’un (link:https://www.youtube.com/watch?v=sNkKIHsE1hk text:album de 1977) du curieux jazzman originaire de la planète Saturne, (link:https://en.wikipedia.org/wiki/Sun_Ra text:Sun Ra), et de son Jet Set Omniverse Arkestra. C’est également le titre d’un (link:https://www.unseen64.net/2008/04/08/unity-gc-cancelled/ text:jeu psychédélique) conçu par le cultissime créateur (link:https://en.wikipedia.org/wiki/Jeff_Minter text:Jeff Minter) pour Nintendo GameCube en 2004 qui n’a finalement jamais vu le jour. Enfin c’est le nom du (link:http://unity3d.com text:plus populaire outil de création de jeux vidéo).
 
-Ce tutoriel sur la création d'un projet Unity + Oculus a été crée pour le Master Media Design de la HEAD – Genève.
+Ce tutoriel sur la création d'un projet Unity + Oculus a été crée pour le [Master Media Media](https://www.hesge.ch/head/en/programs-research/master-arts-media-design) de la HEAD – Genève.
 ----
 readme: LISEZMOI.md
 ----
