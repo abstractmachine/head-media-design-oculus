@@ -88,3 +88,32 @@ At the writing of this tutorial, `Facebook` has recently changed the name of the
 This tutorial uses the [Oculus Quest](https://www.oculus.com/quest-2/) 1 & 2 headsets as our platform for exploring virtual reality, and Unity 2021.2 for building the interactive world inside these headsets. While the Oculus Quest is not the be-all and end-all headset of virtual reality — we are still waiting for someone to solve the myriad design and technological constraints of virtual reality — it does have the advantage of packaging all the basics of circa 2020 virtual reality into one entirely self-contained headset. With the Oculus Quest, you simply put the device on your head and it just works; making it an ideal device for public exhibitions of virtual reality.
 
 (youtube: https://www.youtube.com/watch?v=g1bq32kjOKo)
+
+### Virtual Haiku & The City of Tomorrow
+Starting during the 2020 confinement, my colleagues Marion Bareil and Pierre Rossel designed a series of courses ([Virtual Haiku](https://www.hesge.ch/head/projet/master-media-design-virtual-haiku) & [The City of Tomorrow](https://www.hesge.ch/head/en/project/vr-workshop-imagining-city-tomorrow)) around virtual reality headsets using the players' gaze as the primary mode of interaction. Here are a few projects from that course:
+
+(vimeo: https://vimeo.com/465320477)
+
+(vimeo: https://vimeo.com/465315601)
+
+(vimeo: https://vimeo.com/568886317)
+
+(vimeo: https://vimeo.com/568883212)
+
+(vimeo: https://vimeo.com/568885645)
+
+(vimeo: https://vimeo.com/568885456)
+
+(vimeo: https://vimeo.com/568884516)
+
+(vimeo: https://vimeo.com/465314621)
+
+(vimeo: https://vimeo.com/465320377)
+
+(vimeo: https://vimeo.com/465320217)
+
+(vimeo: https://vimeo.com/465320316)
+
+And here are a few other projects from our [Master Media Design](https://www.hesge.ch/head/en/programs-research/master-arts-media-design) that showcase the use of virtual reality headsets:
+
+(vimeo: https://vimeo.com/210307366)

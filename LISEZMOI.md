@@ -92,3 +92,32 @@ Au moment de la rédaction de ce tutoriel, `Facebook` a récemment changé le no
 Ce didacticiel utilise les casques [Oculus Quest](https://www.oculus.com/quest-2/) 1 et 2 comme plate-forme pour explorer la réalité virtuelle, et Unity 2021.2 pour créer le monde interactif à l'intérieur de ces casques. Bien que l'Oculus Quest ne soit pas le casque ultime de la réalité virtuelle - nous attendons toujours que quelqu'un résolve la myriade de contraintes de conception et technologiques de la réalité virtuelle - il a l'avantage d'emballer toutes les bases d'environ 2020 réalité virtuelle dans un casque entièrement autonome. Avec l'Oculus Quest, vous mettez simplement l'appareil sur votre tête et cela fonctionne ; ce qui en fait un dispositif idéal pour les expositions publiques de réalité virtuelle.
 
 (youtube: https://www.youtube.com/watch?v=g1bq32kjOKo)
+
+### Haïku virtuel et la ville de demain
+Dès le confinement 2020, mes collègues Marion Bareil et Pierre Rossel ont conçu une série de cours ([Virtual Haiku](https://www.hesge.ch/head/projet/master-media-design-virtual-haiku) & [La Ville de Demain](https://www.hesge.ch/head/en/project/vr-workshop-imagining-city-tomorrow)) autour de casques de réalité virtuelle utilisant le regard des joueurs comme premier mode d'interaction. Voici quelques projets issus de ce cours :
+
+(vimeo: https://vimeo.com/465320477)
+
+(vimeo: https://vimeo.com/465315601)
+
+(vimeo: https://vimeo.com/568886317)
+
+(vimeo: https://vimeo.com/568883212)
+
+(vimeo: https://vimeo.com/568885645)
+
+(vimeo: https://vimeo.com/568885456)
+
+(vimeo: https://vimeo.com/568884516)
+
+(vimeo: https://vimeo.com/465314621)
+
+(vimeo: https://vimeo.com/465320377)
+
+(vimeo: https://vimeo.com/465320217)
+
+(vimeo: https://vimeo.com/465320316)
+
+Et voici quelques autres projets de notre [Master Media Design](https://www.hesge.ch/head/en/programs-research/master-arts-media-design) qui mettent en avant l'utilisation des casques de réalité virtuelle :
+
+(vimeo: https://vimeo.com/210307366)
