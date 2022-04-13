@@ -88,7 +88,7 @@ Au moment de la rédaction de ce tutoriel, `Facebook` a récemment changé le no
 
 (youtube: https://www.youtube.com/watch?v=gElfIo6uw4g)
 
-### Quête Oculus
+### Oculus Quest
 Ce didacticiel utilise les casques [Oculus Quest](https://www.oculus.com/quest-2/) 1 et 2 comme plate-forme pour explorer la réalité virtuelle, et Unity 2021.2 pour créer le monde interactif à l'intérieur de ces casques. Bien que l'Oculus Quest ne soit pas le casque ultime de la réalité virtuelle - nous attendons toujours que quelqu'un résolve la myriade de contraintes de conception et technologiques de la réalité virtuelle - il a l'avantage d'emballer toutes les bases d'environ 2020 réalité virtuelle dans un casque entièrement autonome. Avec l'Oculus Quest, vous mettez simplement l'appareil sur votre tête et cela fonctionne ; ce qui en fait un dispositif idéal pour les expositions publiques de réalité virtuelle.
 
 (youtube: https://www.youtube.com/watch?v=g1bq32kjOKo)
