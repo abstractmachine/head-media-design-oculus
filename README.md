@@ -72,7 +72,6 @@ At the writing of this tutorial, `Facebook` has recently changed the name of the
 
 (youtube: https://www.youtube.com/watch?v=gElfIo6uw4g)
 
-<<<<<<< HEAD
 #### Untitled Goose Game
 (youtube: 9LL2AtHo1gk)
 
@@ -81,7 +80,7 @@ At the writing of this tutorial, `Facebook` has recently changed the name of the
 
 #### Oniri Islands
 (youtube: VsC9u8bVpN0)
-=======
+
 ### Oculus Quest
 This tutorial uses the [Oculus Quest](https://www.oculus.com/quest-2/) 1 & 2 headsets as our platform for exploring virtual reality, and Unity 2021.2 for building the interactive world inside these headsets. While the Oculus Quest is not the be-all and end-all headset of virtual reality — we are still waiting for someone to solve the myriad design and technological constraints of virtual reality — it does have the advantage of packaging all the basics of circa 2020 virtual reality into one entirely self-contained headset. With the Oculus Quest, you simply put the device on your head and it just works; making it an ideal device for public exhibitions of virtual reality.
 
@@ -115,4 +114,3 @@ Starting during the 2020 confinement, my colleagues Marion Bareil and Pierre Ros
 And here are a few other projects from our [Master Media Design](https://www.hesge.ch/head/en/programs-research/master-arts-media-design) that showcase the use of virtual reality headsets:
 
 (vimeo: https://vimeo.com/210307366)
->>>>>>> 2eccf1461c04e336ab97c1e2dd01dd8ea1428fce

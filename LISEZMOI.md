@@ -72,7 +72,6 @@ A l'écriture de ce tutoriel, Facebook a récemment changé le nom de toute leur
 
 Pour faire court, Facebook a rapidement racheté Oculus et leur prototype, le fondateur Palmer Luckey s'est transformé à la fois [a barefoot VR dork meme as ainsi qu'un [financeur de l'usine de trolls pro-Trump - oh ouais et [Mark Zuckerberg a fait un high-five à l'avatar de sa collègue Rachel Franklin dans un flux de réalité virtuelle en direct de Porto Rica et du désastre laissé par l'ouragan Maria. Plusieurs milliers de personnes sont mortes dans cette catastrophe, et l'idée était que vous pourriez mieux sympathiser avec elles si d'une manière ou d'une autre vous pouviez simplement insérer votre tête dans leur souffrance.
 
-<<<<<<< HEAD
 #### Untitled Goose Game
 (youtube: 9LL2AtHo1gk)
 
@@ -81,7 +80,7 @@ Pour faire court, Facebook a rapidement racheté Oculus et leur prototype, le fo
 
 #### Oniri Islands
 (youtube: VsC9u8bVpN0)
-=======
+
 Au moment de la rédaction de ce tutoriel, `Facebook` a récemment changé le nom de toute leur entreprise en `Meta`, accompagné d'une vidéo loufoque expliquant leur vision du futur passant par le 'Metaverse'.
 
 (youtube: https://www.youtube.com/watch?v=gElfIo6uw4g)
@@ -119,4 +118,3 @@ Dès le confinement 2020, mes collègues Marion Bareil et Pierre Rossel ont con�
 Et voici quelques autres projets de notre [Master Media Design](https://www.hesge.ch/head/en/programs-research/master-arts-media-design) qui mettent en avant l'utilisation des casques de réalité virtuelle :
 
 (vimeo: https://vimeo.com/210307366)
->>>>>>> 2eccf1461c04e336ab97c1e2dd01dd8ea1428fce

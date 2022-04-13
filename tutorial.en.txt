@@ -79,13 +79,12 @@ The list of games made with Unity is almost infinite. Here are a few Unity showr
 #### Untitled Goose Game
 (youtube: 9LL2AtHo1gk)
 
-<<<<<<< HEAD
 #### World of Yoho
 (youtube: TMwueafxS6Y)
 
 #### Oniri Islands
 (youtube: VsC9u8bVpN0)
-=======
+
 ### Virtual Reality
 Virtual reality as a concept is an old dream, and like most of the other contempory computer interfaces we use today, Ivan Sutherland built a prototype of it in the 1960s, entitled [The Sword of Damocles](https://en.wikipedia.org/wiki/The_Sword_of_Damocles_(virtual_reality)).
 
@@ -151,4 +150,3 @@ Starting during the 2020 confinement, my colleagues Marion Bareil and Pierre Ros
 And here are a few other projects from our [Master Media Design](https://www.hesge.ch/head/en/programs-research/master-arts-media-design) that showcase the use of virtual reality headsets:
 
 (vimeo: 210307366)
->>>>>>> 2eccf1461c04e336ab97c1e2dd01dd8ea1428fce

@@ -80,13 +80,12 @@ La liste des jeux réalisés avec Unity est presque infinie. Voici quelques dém
 #### Untitled Goose Game
 (youtube: 9LL2AtHo1gk)
 
-<<<<<<< HEAD
 #### World of Yoho
 (youtube: TMwueafxS6Y)
 
 #### Oniri Islands
 (youtube: VsC9u8bVpN0)
-=======
+
 ### Réalité Virtuelle
 La réalité virtuelle en tant que concept est un vieux rêve, et comme la plupart des autres interfaces informatiques contemporaines que nous utilisons aujourd'hui, Ivan Sutherland en a construit un prototype dans les années 1960, intitulé [L'épée de Damoclès](https://en.wikipedia. org/wiki/The_Sword_of_Damocles_(virtual_reality)).
 
@@ -157,4 +156,3 @@ Dès le confinement 2020, mes collègues Marion Bareil et Pierre Rossel ont con�
 Et voici quelques autres projets de notre [Master Media Design](https://www.hesge.ch/head/programs-research/master-arts-media-design) qui mettent en avant l'utilisation des casques de réalité virtuelle :
 
 (vimeo: 210307366)
->>>>>>> 2eccf1461c04e336ab97c1e2dd01dd8ea1428fce
