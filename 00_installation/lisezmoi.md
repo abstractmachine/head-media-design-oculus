@@ -51,6 +51,8 @@ Pour compléter ces options, votre appareil Oculus doit être allumé et connect
 
 Vous aurez également besoin du même compte Facebook sur votre téléphone et dans votre casque pour terminer ce processus. Oui, vous avez bien lu : vous avez besoin d'un compte Facebook pour activer ce `developer mode` magique. Oui, Facebook vous demandera d'utiliser une carte de crédit (vous pouvez dire non) ou d'utiliser un téléphone (votre autre carte de crédit) pour « confirmer » votre identité. C'est le monde dans lequel nous vivons.
 
+**Attention**: Si vous ne voyez pas l'option pour ajouter votre numéro de téléphone dans l'application `Oculus`, il suffit d'aller sur l'app Facebook et ajouter votre numéro là-bas. Par contre, Oculus est tout à fait content de vous laisser entrer un numéro de carte bleu quelque soit l'application : faites bien attention.
+
 À la [Head – Genève](https://www.hesge.ch/head/), nous avons un wifi sophistiqué. Bâtiments chic, wifi chic. Plus précisément, notre wifi fait partie du réseau [Eduroam](https://eduroam.org), ce qui nous permet de nous connecter immédiatement au wifi dans les universités et les centres de recherche du monde entier. C'est plutôt cool et ça donne l'impression d'être un Internet à l'ancienne. Quelque chose quelque chose quelque chose… partager… des connaissances. Vous connaissez l'ambiance.
 
 ![Eduroam map](eduroam.png)
@@ -77,3 +79,17 @@ Ce que vous cherchez, c'est ce bouton bleu en mode développeur (cf. ci-dessus).
 
 ### Activer Bluetooth
 Un détail curieux que nous avons découvert en essayant de coupler avec votre Oculus : *vous devez avoir le Bluetooth actif dans votre téléphone pour que l'application trouve le casque*. Apparemment, Oculus utilise Bluetooth pour trouver tous les appareils Oculus à proximité.
+
+### scrcpy
+* Pour les utilisateurs avancés *
+
+Ceci est une installation facultative - * avertissement jargon technique * - mais recommandée : [scrcpy](https://github.com/Genymobile/scrcpy) ("Screen Copy") est un petit outil génial pour afficher le contenu de n'importe lequel de vos périphériques Android sur votre ordinateur. Pourquoi est-ce pratique ? Eh bien, puisque l'Oculus n'est qu'un ordinateur Android étrange assis sur votre visage. Il est donc pratique de pouvoir voir ce que l'Oculus voit depuis une fenêtre de votre ordinateur.
+
+Si vous utilisez un Mac et que vous avez déjà installé `brew` et que vous savez ce qu'est le `Terminal`, vous pouvez rapidement installer `scrcpy` avec les commandes suivantes :
+
+```
+% brew install android-platform-tools
+% brew install scrcpy
+```
+
+Une fois cet outil installé sur votre machine, tapez simplement `scrcpy` dans votre terminal et il ouvrira une fenêtre affichant le contenu de votre casque Oculus.

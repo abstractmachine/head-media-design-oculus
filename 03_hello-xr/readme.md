@@ -62,10 +62,43 @@ You should now have a `Game` view that shows a red cube hovering in the air.
 ![Unity Red Cube Game View](unity-red-cube-game-view.png)
 
 ### Export to Headset
-In order to export to our headset, we need to change several settings in the `Build Settings` window. In your menu bar, go to `File` > `Build Settings` to open this window.
+In order to export to our headset, we need to change several settings in the `Build Settings` window. In your menu bar, go to `File` > `Build Settings` to open this window. Make sure you `Switch Platform` to `Android`, then select your Oculus device in the Android `Run Device` menu, and finally `Build and Run`. If you don't see your device listed, you might need to `Refresh` this list; also, double-check that your headset is plugged in, turned on, and that you have activated `Developer Mode` as explained in the `Installation` tutorial.
 
 ![Unity Build Settings](unity-build-settings.png)
 
-### Change Camera to XR Camera
+When Unity is finished exporting your project, you should see your game inside your Oculus headset. Yipee! Ummm, wait a minute. Look at your headset. What do you see? Is this normal? What the %$@#& is going on. That is totally uncool Unity! There is nothing immersive about this experience.
 
-... To be continued ...
+![Unity Oculus Flat Mode](unity-oculus-flat-mode.png)
+
+The problem is that we have not activated the "virtual reality" mode in our headset. Therefore, Oculus considers that it is just a traditional game that needs to be played on a flatscreen TV. So it builds a flatscreen TV for you inside your headset. Maybe watching flatscreen televisions is just training for our ~~present~~ future dystopic hellscape, but it's probably not what you wanted.
+
+### XR Plugin
+We need to activate the special "virtual reality mode" inside your Unity project. Open the menu `edit` > `Project Settings`, find the `XR Plugin Management` section and select `Install XR Plugin Management`.
+
+![Unity Settings Install XR Plugin](unity-settings-xr-plugin.png)
+
+Once the plugin has been installed, select the `Android` (cf. little robot icon) tab inside this tool and activate the `Oculus` option.
+
+![Unity Settings Oculus](unity-settings-android-oculus.png)
+
+### Convert To XR Rig
+If you re-build and run your application in your headset, you should now be immersed in a 360° world, but the headset won't rotate or move with the movements of your head because it is using a classical 3D camera. This is an odd experience. Try it if you like, just don't move your head. Interresting, but again, not really what you were expecting in a virtual reality headset.
+
+![Unity Convert Camera to XR Rig](unity-convert-to-xr-rig.png)
+
+To *convert* our classical game camera to vr-headset compatible "rig", select the `+` button, choose `XR` > `Convert Main Camera to XR Rig`.
+
+*Now, finally*, you can build your application again and run it on your device. You should now see your lovely Red 3D Cube floating in immersive virtual reality.
+
+![Oculus Virtual Reality](oculus-hello-xr.png)
+
+### Look Behind You!
+A good exercise for *thinking* about how to design in virtual reality, is to start by putting a second object *behind* your `XR Rig`. Create a second material (here I've chosen blue), and placed it "behind" the `XR Rig`.
+
+![Unity front and back objects](unity-vr-front-back-objects.png)
+
+Now when I `Build and Run` my application in my headset, I should have two objects to look at.
+
+The next obvious step would be to continue this [greyboxing](https://www.youtube.com/watch?v=dYBOBgfcTgY) method by building an entire blocked-out city directly inside of Unity, and then to start animating elements within this scene. Hey, sounds like a good subject for a tutorial.
+
+(youtube: dYBOBgfcTgY)

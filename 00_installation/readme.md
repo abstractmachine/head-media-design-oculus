@@ -53,6 +53,8 @@ In order to complete these options your Oculus device needs to be on, and connec
 
 You will also need the same Facebook account on your phone and in your headset in order to complete this process. Yes, you read that correctly: you need a Facebook account to activate this magical `developer mode`. Yes, Facebook will ask you to use a credit card (you can say no) or to use a telephone (your other credit card) to "confirm" your identity. This is the world we live in.
 
+**Warning**: if you don't see the option to add your phone number in the `Oculus` app, just go to the Facebook app and add your number there. On the other hand, Oculus is quite happy to let you enter a credit card number whatever the application: be careful.
+
 At the [Head – Genève](https://www.hesge.ch/head/) we have fancy wifi. Fancy buildings, fancy wifi. Specifically, our wifi is part of the [Eduroam](https://eduroam.org) network, allowing us to immediately connect to wifi in universities and research facilities all over the world. It's kinda cool and feels sorta old skool Internet. Something something something… sharing… knowledge. You know the vibe.
 
 ![Eduroam map](eduroam.png)
@@ -79,3 +81,17 @@ The thing you are looking for is this blue button in developer mode (cf. above).
 
 ### Activate Bluetooth
 A curious detail that we discovered when trying to pair with your Oculus: *you must have bluetooth active in your phone for the app to find the headset*. Apparently, Oculus uses bluetooth to find any Oculus devices nearby.
+
+### scrcpy
+*Advanced Users Tool Tip*
+
+This is an optional install — *technical jargon warning* — but recommended: [scrcpy](https://github.com/Genymobile/scrcpy) ("Screen Copy") is an awesome little tool for streaming content from any of your android devices to your computer. Why is that handy? Well, since the Oculus is just an odd-looking Android computer sitting on your face, it is handy to be able to see what the Oculus sees from a window on your computer.
+
+If you use a Mac, and you already have `brew` installed, and you know what the `Terminal` is, you can quickly install `scrcpy` with the following commands:
+
+```
+% brew install android-platform-tools
+% brew install scrcpy
+```
+
+Once this tool is installed on your machine, just type `scrcpy` into your Terminal and it will open a window showing the contents of your Oculus headset.

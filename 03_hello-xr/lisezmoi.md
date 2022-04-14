@@ -1,71 +1,104 @@
 ### Time To VR
-Let's put some triangles into our Oculus headset. Loosely inspired by Mark Cerny's [Time to triangle](https://www.youtube.com/watch?v=ph8LyNIT9sg&t=162s) measurement, let's see how quickly we can get some triangles into an immersive virtual reality world.
+Mettons quelques triangles dans notre casque Oculus. Librement inspiré de la mesure [Time to triangle](https://www.youtube.com/watch?v=ph8LyNIT9sg&t=162s) de Mark Cerny, voyons à quelle vitesse nous pouvons intégrer des triangles dans un monde de réalité virtuelle immersif.
 
-We're going to keep this as simple as possible, with the goal of getting a (red) cube on the screen as quickly as possible. For art direction we'll use as our influence the supercool VR game [Superhot](https://superhotgame.com).
+Nous allons garder cela aussi simple que possible, dans le but d'obtenir un cube (rouge) à l'écran le plus rapidement possible. Pour la direction artistique, nous utiliserons comme influence le jeu VR super cool [Superhot] (https://superhotgame.com).
 
 (youtube: A1jothqmqHw)
 
 ### New Project
-Open up the Unity Hub on your macOS, Windows, or Linux machine. Go into the `Projects` tab and press the `New project` button. You will see a series of choices. Make sure you are using `Unity 2021.2.##`. Make sure that you are using the `3D Core` template, which configures your Unity project to the standard 3D rendering system which is a good starting point for any virtual reality project. Inside the `Project Settings` section, you can give your project a name, and determine the location where it will be saved. Finally, when you are happy with these settings, click `Create project` to open your project in the Unity editor.
+Ouvrez le Unity Hub sur votre machine macOS, Windows ou Linux. Allez dans l'onglet "Projets" et appuyez sur le bouton "Nouveau projet". Vous verrez une série de choix. Assurez-vous que vous utilisez `Unity 2021.2.##`. Assurez-vous que vous utilisez le modèle "3D Core", qui configure votre projet Unity sur le système de rendu 3D standard, ce qui constitue un bon point de départ pour tout projet de réalité virtuelle. Dans la section "Paramètres du projet", vous pouvez donner un nom à votre projet et déterminer l'emplacement où il sera enregistré. Enfin, lorsque vous êtes satisfait de ces paramètres, cliquez sur "Créer un projet" pour ouvrir votre projet dans l'éditeur Unity.
 
 ![Unity New Project window](unity-new-project-window.jpg)
 
 ### Sample Scene
-Your project should open up with a `SampleScene` in the `Hierarchy`.
+Votre projet devrait s'ouvrir avec un `SampleScene` dans `Hierarchy`.
 
 ![Unity Empty Project](unity-empty-project.png)
 
-If your project doesn't look like my screenshot, it is because I have configured my editor to use the `Tall` layout by default (cf. Unity Editor).
+Si votre projet ne ressemble pas à ma capture d'écran, c'est que j'ai configuré mon éditeur pour qu'il utilise par défaut la mise en page `Tall` (cf. Unity Editor).
 
-### Inifinity Room
-Let's add a floor and a cube to our `Scene`. At the top of the `Hierarchy` tab, you'll find a `+` button; select `+` > `3D Object` > `Plane` to create a flat plane in the middle of the scene.
+### Chambre infini
+Ajoutons un étage et un cube à notre `Scene`. En haut de l'onglet "Hiérarchie", vous trouverez un bouton "+" ; sélectionnez `+` > `Objet 3D` > `Plane` pour créer un plan plat au milieu de la scène.
 
 ![Unity Create Plane](unity-create-plane.jpg)
 
-Select that plane, look at it's values inside the `Inspector` tab. You should see the `Transform` values, which describe the `x`, `y`, and `z` position, the rotation, and the scale of the plane.
+Sélectionnez ce plan, regardez ses valeurs dans l'onglet "Inspecteur". Vous devriez voir les valeurs `Transform`, qui décrivent les positions `x`, `y` et `z`, la rotation et l'échelle du plan.
 
 ![Unity ajust plane size](unity-plane-100-1-100.png)
 
-Let's stretch out our plane to give it a larger size in the `x` and `z` directions. In my example, I've given it a scale multiplier of `100` units.
+Étirons notre plan pour lui donner une plus grande taille dans les directions `x` et `z`. Dans mon exemple, je lui ai donné un multiplicateur d'échelle de `100` unités.
 
 ![Unity white scene](unity-white-scene.png)
 
-This should create the impression of an infinite white floor spreading off into the distance, similar to the infinite white room in [THX 1138](https://www.youtube.com/watch?v=nkQAhpLBok8).
+Cela devrait créer l'impression d'un sol blanc infini s'étendant au loin, semblable à la salle blanche infinie dans [THX 1138](https://www.youtube.com/watch?v=nkQAhpLBok8).
 
-### Red Cube
-Now let's put a red cube in the middle of this abstract room. Before we create the cube, let's create a new folder to hold all our color materials. In the `Project` tab, select the `+` button and create a new `Folder` in your `Project` named `Materials`. It is good practice to name your folders using simple words, and keep your Uppercase and Lowercase names consistent. In Unity, the tradition is to start folder names with a capital letter and to use plural names where appriopriate.
+### Cube rouge
+Maintenant, plaçons un cube rouge au milieu de cette pièce abstraite. Avant de créer le cube, créons un nouveau dossier pour contenir tous nos matériaux de couleur. Dans l'onglet `Project`, sélectionnez le bouton `+` et créez un nouveau `Folder` dans votre `Project` nommé `Materials`. C'est une bonne pratique de nommer vos dossiers en utilisant des mots simples et de garder vos noms en majuscules et minuscules cohérents. Dans Unity, la tradition est de commencer les noms de dossier par une majuscule et d'utiliser des noms au pluriel le cas échéant.
 
 ![Unity Materials folder](unity-materials-folder.png)
 
-Now let's create our `Red` color material in this new folder. Right-click on the folder, or alternatively select the folder name and click on the `+` button to create a new `Material`. Name that material "`Red`". Give it a red color, and drag the `Smoothness` slider down to `0` for a more *flat* look.
+Créons maintenant notre matériau de couleur "Rouge" dans ce nouveau dossier. Faites un clic droit sur le dossier, ou bien sélectionnez le nom du dossier et cliquez sur le bouton `+` pour créer un nouveau `Material`. Nommez ce matériau "`Red`". Donnez-lui une couleur rouge et faites glisser le curseur "`Smoothness`" jusqu'à `0` pour un aspect plus *plat*.
 
 ![Unity Material Color Red](unity-material-color-red.png)
 
-We now have a red material to paint our 3D scene with.
+Nous avons maintenant un matériau rouge pour peindre notre scène 3D.
 
 ![Unity 3D Cube](unity-create-cube.png)
 
-Go back to the `Scene` tab and create a `+` > `3D Object` > `Cube`.
+Revenez à l'onglet `Scene` et créez un `+` > `3D Object` > `Cube`.
 
-This should inject a 3D Cube into your scene, but unfortunately the cube is stuck in the floor. Let's lift the cube into the air and give it a little rotation using the following settings in the `Cube` object's `Inspector`:
+Cela devrait injecter un cube 3D dans votre scène, mais malheureusement le cube est coincé dans le sol. Levons le cube dans les airs et donnons-lui une petite rotation en utilisant les paramètres suivants dans l'inspecteur de l'objet `Cube` :
 
 ![Unity Cube Transform Settings](unity-3d-cube-transform.png)
 
-Here, we've set the Cube's position to `2` units on the `Y` axis, and rotated the cube `45°` *around* the `Y` axis.
+Ici, nous avons défini la position du cube sur `2` unités sur l'axe `Y` et fait pivoter le cube de `45°` *autour* de l'axe 'Y'.
 
 ![Unity drag material](unity-drag-material.png)
 
-Finally, let's drag out `Red` material from the `Project` tab, directly onto the object in the `Scene` tab in order to give it the color red.
+Enfin, faisons glisser le matériau `Red` de l'onglet `Project`, directement sur l'objet dans l'onglet `Scene` afin de lui donner la couleur rouge.
 
-You should now have a `Game` view that shows a red cube hovering in the air.
+Vous devriez maintenant avoir une vue `Game` qui montre un cube rouge planant dans les airs.
 
 ![Unity Red Cube Game View](unity-red-cube-game-view.png)
 
-### Export to Headset
-In order to export to our headset, we need to change several settings in the `Build Settings` window. In your menu bar, go to `File` > `Build Settings` to open this window.
+### Exporter vers le casque
+Afin d'exporter vers notre casque, nous devons modifier plusieurs paramètres dans la fenêtre "Configurer les paramètres". Dans votre barre de menu, allez dans `File` > `Build Settings` pour ouvrir cette fenêtre. Assurez-vous de `Switch Platform` sur `Android`, puis sélectionnez votre appareil Oculus dans le menu Android `Run Device`, et enfin `Build and Run`. Si vous ne voyez pas votre appareil dans la liste, vous devrez peut-être "Actualiser" cette liste ; vérifiez également que votre casque est branché, allumé et que vous avez activé le « `Developer Mode` », comme expliqué dans le didacticiel « `Installation` ».
 
 ![Unity Build Settings](unity-build-settings.png)
 
-### Change Camera to XR Camera
+Lorsque Unity a fini d'exporter votre projet, vous devriez voir votre jeu dans votre casque Oculus. Youpi ! Ummm, attendez une minute. Regardez votre casque. Que vois-tu? Est-ce normal? Qu'est-ce que le %$@#& se passe. Ce n'est pas du tout cool Unity ! Il n'y a rien d'immersif dans cette expérience.
 
-... To be continued ...
+![Unity Oculus Flat Mode](unity-oculus-flat-mode.png)
+
+Le problème est que nous n'avons pas activé le mode « réalité virtuelle » dans notre casque. Par conséquent, Oculus considère qu'il s'agit d'un jeu traditionnel qui doit être joué sur un téléviseur classique. Ainsi, il construit à écran plat pour vous à l'intérieur de votre casque. Peut-être que regarder des téléviseurs à écran plat n'est qu'un entraînement pour notre ~~présent~~ futur paysage d'enfer dystopique, mais ce n'est probablement pas ce que vous vouliez.
+
+### Plugin XR
+Nous devons activer le "mode de réalité virtuelle" spécial dans votre projet Unity. Ouvrez le menu `Edit` > `Project Settings`, recherchez la section `XR Plugin Management` et sélectionnez `Install XR Plugin Management`.
+
+![Unity Settings Install XR Plugin](unity-settings-xr-plugin.png)
+
+Une fois le plugin installé, sélectionnez l'onglet `Android` (cf. icône du petit robot) dans cet outil et activez l'option `Oculus`.
+
+![Unity Settings Oculus](unity-settings-android-oculus.png)
+
+### Convertir en appareil XR
+Si vous reconstruisez et exécutez votre application dans votre casque, vous devriez maintenant être immergé dans un monde à 360°, mais le casque ne tournera pas ou ne bougera pas avec les mouvements de votre tête car il utilise une caméra 3D classique. C'est une expérience étrange. Essayez-le si vous le souhaitez, mais ne bougez pas la tête. Intéressant, mais encore une fois, pas vraiment ce à quoi on s'attendait dans un casque de réalité virtuelle.
+
+![Unity Convert Camera to XR Rig](unity-convert-to-xr-rig.png)
+
+Pour *convertir* notre caméra de jeu classique en "rig" compatible avec le casque VR, sélectionnez le bouton "+", choisissez "XR" > "Convertir la caméra principale en XR Rig".
+
+*Maintenant, enfin*, vous pouvez recréer votre application et l'exécuter sur votre appareil. Vous devriez maintenant voir votre charmant cube 3D rouge flotter dans une réalité virtuelle immersive.
+
+![Oculus Virtual Reality](oculus-hello-xr.png)
+
+### Regardez derrière vous!
+Un bon exercice pour *réfléchir* à la façon de concevoir en réalité virtuelle consiste à commencer par placer un deuxième objet *derrière* votre `XR Rig`. Créez un deuxième matériau (ici, j'ai choisi bleu) et placez-le "derrière" le `XR Rig`.
+
+![Unity front and back objects](unity-vr-front-back-objects.png)
+
+Maintenant, lorsque je "construis et exécute" mon application dans mon casque, je devrais avoir deux objets à regarder.
+
+La prochaine étape évidente serait de continuer cette méthode [greyboxing](https://www.youtube.com/watch?v=dYBOBgfcTgY) en construisant une ville directement à l'intérieur de Unity, puis de commencer à animer des éléments dans cette scène. Hé, sonne comme une bonne idée pour un tutoriel.
+
+(youtube: dYBOBgfcTgY)
