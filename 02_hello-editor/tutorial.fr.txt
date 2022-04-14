@@ -1,4 +1,4 @@
-Title: Éditeur Unity
+Title: Bonjour Éditeur
 ----
 Cover: 
 ----

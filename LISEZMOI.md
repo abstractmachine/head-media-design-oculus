@@ -3,6 +3,9 @@ Ce tutoriel sur la création d'un projet Unity + Oculus a été crée pour le [M
 - [Introduction](#Game-Engine)
 - [Exemples](#Exemples)
 - [Installation](00_installation)
+- [Bonjour Éditeur](02_hello-editor)
+- [Bonjour XR](03_hello-xr)
+- [Bonjour monde](04_hello-world)
 
 Ce didacticiel est disponible à la fois sur les [tutorials](https://abstractmachine.net/tutorials) du site d'[abstractmachine](https://abstractmachine.net/tutorials) et sur le [abstractmachine GitHub repository](https://github.com/abstractmachine/head-media-design-oculus).
 
@@ -66,7 +69,7 @@ Vers 2010, [une démo de ruban adhésif](https://arstechnica.com/gaming/2012/09/
 
 (youtube: https://www.youtube.com/watch?v=uzCwczY1jTM)
 
-Pour faire court, Facebook a rapidement racheté Oculus et leur prototype, le fondateur Palmer Luckey s'est transformé à la fois en [un mème de VR pieds nus](https://knowyourmeme.com/memes/times-virtual-reality-magazine-cover) et en [un financier de trolls pro-Trump](https://www.theverge.com/2016/9/23/13025422/palmer-luckey-oculus-founder-funding-donald-trump-trolls) - oh ouais et n'oublions pas quand [Mark Zuckerberg a tapé dans les mains l'avatar de son collègue Rachel Franklin](https://www.theverge.com/2017/10/9/16450346/zuckerberg-facebook-spaces-puerto-rico-virtual-reality-hurricane) à l'intérieur d'un flux de réalité virtuelle en direct de Porto Rica et du désastre laissé par l'ouragan Maria. Plusieurs milliers de personnes sont mortes dans cette catastrophe, et l'idée était que vous pourriez mieux sympathiser avec elles si d'une manière ou d'une autre vous pouviez simplement insérer votre tête dans leur souffrance. Bon temps.
+Pour faire court, Facebook a rapidement racheté Oculus et leur prototype, le fondateur Palmer Luckey s'est transformé à la fois en [un mème de VR pieds nus](https://knowyourmeme.com/memes/times-virtual-reality-magazine-cover) et en [un financier de trolls pro-Trump](https://www.theverge.com/2016/9/23/13025422/palmer-luckey-oculus-founder-funding-donald-trump-trolls) - oh ouais et n'oublions pas quand [Mark Zuckerberg a tapé dans les mains l'avatar de son collègue Rachel Franklin](https://www.theverge.com/2017/10/9/16450346/zuckerberg-facebook-spaces-puerto-rico-virtual-reality-hurricane) à l'intérieur d'un flux de réalité virtuelle en direct de Porto Rica et du désastre laissé par l'ouragan Maria. Plusieurs milliers de personnes sont mortes dans cette catastrophe, et l'idée était que vous pourriez mieux sympathiser avec elles si d'une manière ou d'une autre vous pouviez simplement insérer votre tête dans leur souffrance. Émouvant.
 
 A l'écriture de ce tutoriel, Facebook a récemment changé le nom de toute leur entreprise en Meta, accompagné d'une vidéo loufoque expliquant leur vision du futur en passant par le "Metaverse".
 

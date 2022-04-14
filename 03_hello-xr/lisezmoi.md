@@ -100,5 +100,3 @@ Un bon exercice pour *réfléchir* à la façon de concevoir en réalité virtue
 Maintenant, lorsque je "construis et exécute" mon application dans mon casque, je devrais avoir deux objets à regarder.
 
 La prochaine étape évidente serait de continuer cette méthode [greyboxing](https://www.youtube.com/watch?v=dYBOBgfcTgY) en construisant une ville directement à l'intérieur de Unity, puis de commencer à animer des éléments dans cette scène. Hé, sonne comme une bonne idée pour un tutoriel.
-
-(youtube: dYBOBgfcTgY)

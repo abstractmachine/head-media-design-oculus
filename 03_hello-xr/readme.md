@@ -73,7 +73,7 @@ When Unity is finished exporting your project, you should see your game inside y
 The problem is that we have not activated the "virtual reality" mode in our game. Therefore, Oculus considers that Unity sent us a traditional game that needs to be played on a flatscreen TV. So it builds a flatscreen TV for you inside your headset. Maybe watching flatscreen televisions is just training for our ~~future~~ present dystopic hellscape, but it's probably not what you wanted.
 
 ### XR Plugin
-We need to activate the special "virtual reality mode" inside your Unity project. Open the menu `edit` > `Project Settings`, find the `XR Plugin Management` section and select `Install XR Plugin Management`.
+We need to activate the special "virtual reality mode" inside your Unity project. Open the menu `Edit` > `Project Settings`, find the `XR Plugin Management` section and select `Install XR Plugin Management`.
 
 ![Unity Settings Install XR Plugin](unity-settings-xr-plugin.png)
 
@@ -93,12 +93,10 @@ To *convert* our classical game camera to vr-headset compatible "rig", select th
 ![Oculus Virtual Reality](oculus-hello-xr.png)
 
 ### Look Behind You!
-A good exercise for *thinking* about how to design in virtual reality, is to start by putting a second object *behind* your `XR Rig`. Create a second material (here I've chosen blue), and placed it "behind" the `XR Rig`.
+A good exercise for *thinking* about how to design in virtual reality, is to start by putting a second object *behind* your `XR Rig`. Create a second material (here I've chosen blue), and place it "behind" the `XR Rig`.
 
 ![Unity front and back objects](unity-vr-front-back-objects.png)
 
 Now when I `Build and Run` my application in my headset, I should have two objects to look at.
 
 The next obvious step would be to continue this [greyboxing](https://www.youtube.com/watch?v=dYBOBgfcTgY) method by building an entire blocked-out city directly inside of Unity, and then to start animating elements within this scene. Hey, sounds like a good subject for a tutorial.
-
-(youtube: dYBOBgfcTgY)

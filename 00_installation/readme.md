@@ -90,8 +90,8 @@ This is an optional install — *technical jargon warning* — but recommended: 
 If you use a Mac, and you already have `brew` installed, and you know what the `Terminal` is, you can quickly install `scrcpy` with the following commands:
 
 ```
-% brew install android-platform-tools
-% brew install scrcpy
+brew install android-platform-tools
+brew install scrcpy
 ```
 
 Once this tool is installed on your machine, just type `scrcpy` into your Terminal and it will open a window showing the contents of your Oculus headset.

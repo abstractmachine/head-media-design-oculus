@@ -88,8 +88,8 @@ Ceci est une installation facultative - * avertissement jargon technique * - mai
 Si vous utilisez un Mac et que vous avez déjà installé `brew` et que vous savez ce qu'est le `Terminal`, vous pouvez rapidement installer `scrcpy` avec les commandes suivantes :
 
 ```
-% brew install android-platform-tools
-% brew install scrcpy
+brew install android-platform-tools
+brew install scrcpy
 ```
 
 Une fois cet outil installé sur votre machine, tapez simplement `scrcpy` dans votre terminal et il ouvrira une fenêtre affichant le contenu de votre casque Oculus.

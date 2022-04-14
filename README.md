@@ -3,6 +3,9 @@ This tutorial for building a Unity + Oculus project from scratch was created for
 - [Introduction](#Game-Engine)
 - [Examples](#Examples)
 - [Installation](00_installation)
+- [Bonjour Editor](02_hello-editor)
+- [Bonjour XR](03_hello-xr)
+- [Bonjour World](04_hello-world)
 
 This tutorial is available on both on the [abstractmachine website tutorials](https://abstractmachine.net/tutorials) and the [abstractmachine GitHub repository](https://github.com/abstractmachine/head-media-design-oculus).
 
