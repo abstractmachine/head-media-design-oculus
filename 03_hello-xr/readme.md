@@ -45,9 +45,9 @@ We now have a red material to paint our 3D scene with.
 
 ![Unity 3D Cube](unity-create-cube.png)
 
-Go back to the `Scene` tab and create a `+` > `3D Object` > `Cube`.
+Go back to the `Hierarchy` tab and create a `+` > `3D Object` > `Cube`.
 
-This should inject a 3D Cube into your scene, but unfortunately the cube is stuck in the floor. Let's lift the cube into the air and give it a little rotation using the following settings in the `Cube` object's `Inspector`:
+This should inject a 3D Cube into your `Scene`, but unfortunately the cube is stuck in the floor. Let's lift the cube into the air and give it a little rotation using the following settings in the `Cube` object's `Inspector`:
 
 ![Unity Cube Transform Settings](unity-3d-cube-transform.png)
 
@@ -70,7 +70,7 @@ When Unity is finished exporting your project, you should see your game inside y
 
 ![Unity Oculus Flat Mode](unity-oculus-flat-mode.png)
 
-The problem is that we have not activated the "virtual reality" mode in our headset. Therefore, Oculus considers that it is just a traditional game that needs to be played on a flatscreen TV. So it builds a flatscreen TV for you inside your headset. Maybe watching flatscreen televisions is just training for our ~~present~~ future dystopic hellscape, but it's probably not what you wanted.
+The problem is that we have not activated the "virtual reality" mode in our game. Therefore, Oculus considers that Unity sent us a traditional game that needs to be played on a flatscreen TV. So it builds a flatscreen TV for you inside your headset. Maybe watching flatscreen televisions is just training for our ~~future~~ present dystopic hellscape, but it's probably not what you wanted.
 
 ### XR Plugin
 We need to activate the special "virtual reality mode" inside your Unity project. Open the menu `edit` > `Project Settings`, find the `XR Plugin Management` section and select `Install XR Plugin Management`.

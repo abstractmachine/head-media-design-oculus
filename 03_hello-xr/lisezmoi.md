@@ -45,9 +45,9 @@ Nous avons maintenant un matériau rouge pour peindre notre scène 3D.
 
 ![Unity 3D Cube](unity-create-cube.png)
 
-Revenez à l'onglet `Scene` et créez un `+` > `3D Object` > `Cube`.
+Revenez à l'onglet `Hierarchy` et créez un `+` > `3D Object` > `Cube`.
 
-Cela devrait injecter un cube 3D dans votre scène, mais malheureusement le cube est coincé dans le sol. Levons le cube dans les airs et donnons-lui une petite rotation en utilisant les paramètres suivants dans l'inspecteur de l'objet `Cube` :
+Cela devrait injecter un cube 3D dans votre `Scene`, mais malheureusement le cube est coincé dans le sol. Levons le cube dans les airs et donnons-lui une petite rotation en utilisant les paramètres suivants dans l'inspecteur de l'objet `Cube` :
 
 ![Unity Cube Transform Settings](unity-3d-cube-transform.png)
 
@@ -70,7 +70,7 @@ Lorsque Unity a fini d'exporter votre projet, vous devriez voir votre jeu dans v
 
 ![Unity Oculus Flat Mode](unity-oculus-flat-mode.png)
 
-Le problème est que nous n'avons pas activé le mode « réalité virtuelle » dans notre casque. Par conséquent, Oculus considère qu'il s'agit d'un jeu traditionnel qui doit être joué sur un téléviseur classique. Ainsi, il construit à écran plat pour vous à l'intérieur de votre casque. Peut-être que regarder des téléviseurs à écran plat n'est qu'un entraînement pour notre ~~présent~~ futur paysage d'enfer dystopique, mais ce n'est probablement pas ce que vous vouliez.
+Le problème est que nous n'avons pas activé le mode "réalité virtuelle" dans notre jeu. Par conséquent, Oculus considère que Unity nous a envoyé un jeu traditionnel qui doit être joué sur un téléviseur à écran plat. Ainsi, il construit un téléviseur à écran plat pour vous à l'intérieur de votre casque. Peut-être que regarder des téléviseurs à écran plat n'est qu'un entraînement pour notre ~~futur~~ paysage d'enfer dystopique actuel, mais ce n'est probablement pas ce que vous vouliez.
 
 ### Plugin XR
 Nous devons activer le "mode de réalité virtuelle" spécial dans votre projet Unity. Ouvrez le menu `Edit` > `Project Settings`, recherchez la section `XR Plugin Management` et sélectionnez `Install XR Plugin Management`.
