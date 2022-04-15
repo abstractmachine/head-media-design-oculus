@@ -63,7 +63,7 @@ As soon as we have added a property to animate, the `Animation` window automatic
 
 ![Unity Animation Clip Keyframes](unity-animation-keyframe-end.png)
 
-In the above example you can see that I have moved the time cursor to the final keyframe of my `Animation Clip`, and modified the `Y` axis rotation to the value of `360`°. If you rewind the time cursor to the beginning of my clip, the `Y` rotation value began at `0`°, meaning that all of the intermediary frames will be *interpolations* between these two values, depending on where the time cursor is inside of the animation clip. Also note that the lozange-shaped keyframe values (and parent values) that I have *changed* at that specific point in time have been colored blue.
+In the above example you can see that I have moved the time cursor to the final keyframe of my `Animation Clip`, and modified the `Y` axis rotation to the value of `360`°. If you rewind the time cursor to the beginning of my clip, the `Y` rotation value began at `0`°, meaning that all of the intermediary frames will be *interpolations* between these two values, depending on where the time cursor is inside of the animation clip. Also note that the lozenge-shaped keyframe values (and parent values) that I have *changed* at that specific point in time have been colored blue.
 
 ![Unity Animation Spin](unity-animation-spin.gif)
 
