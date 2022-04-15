@@ -96,3 +96,5 @@ brew install scrcpy
 ```
 
 Une fois cet outil installé sur votre machine, tapez simplement `scrcpy` dans votre terminal et il ouvrira une fenêtre affichant le contenu de votre casque Oculus.
+
+Si vous utilisez un ordinateur Windows, accédez à la page github [scrcpy](https://github.com/Genymobile/scrcpy) où ils ont un programme d'installation à télécharger. Suivez simplement les instructions qui s'y trouvent.
