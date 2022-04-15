@@ -83,7 +83,7 @@ The thing you are looking for is this blue button in developer mode (cf. above).
 ![Oculus developer mode button](oculus-developer-mode-button.jpg)
 
 ### Activate Bluetooth
-A curious detail that we discovered when trying to pair with your Oculus: *you must have bluetooth active in your phone for the app to find the headset*. Apparently, Oculus uses bluetooth to find any Oculus devices nearby.
+A curious detail that we discovered when trying to pair with our Oculus: *you must have bluetooth active in your phone for the app to find the headset*. Apparently, Oculus uses bluetooth to find any Oculus devices nearby.
 
 ### scrcpy
 *Advanced Users Tool Tip*
