@@ -53,6 +53,9 @@ Vous aurez également besoin du même compte Facebook sur votre téléphone et d
 
 **Attention**: Si vous ne voyez pas l'option pour ajouter votre numéro de téléphone dans l'application `Oculus`, il suffit d'aller sur l'app Facebook et ajouter votre numéro là-bas. Par contre, Oculus est tout à fait content de vous laisser entrer un numéro de carte bleu quelque soit l'application : faites bien attention.
 
+### Eduroam
+![HEAD – Genève Bâtiment H](head-batiment-h.jpg)
+
 À la [Head – Genève](https://www.hesge.ch/head/), nous avons un wifi sophistiqué. Bâtiments chic, wifi chic. Plus précisément, notre wifi fait partie du réseau [Eduroam](https://eduroam.org), ce qui nous permet de nous connecter immédiatement au wifi dans les universités et les centres de recherche du monde entier. C'est plutôt cool et ça donne l'impression d'être un Internet à l'ancienne. Quelque chose quelque chose quelque chose… partager… des connaissances. Vous connaissez l'ambiance.
 
 ![Eduroam map](eduroam.png)

@@ -55,6 +55,9 @@ You will also need the same Facebook account on your phone and in your headset i
 
 **Warning**: if you don't see the option to add your phone number in the `Oculus` app, just go to the Facebook app and add your number there. On the other hand, Oculus is quite happy to let you enter a credit card number whatever the application: be careful.
 
+### Eduroam
+![HEAD – Genève Bâtiment H](head-batiment-h.jpg)
+
 At the [Head – Genève](https://www.hesge.ch/head/) we have fancy wifi. Fancy buildings, fancy wifi. Specifically, our wifi is part of the [Eduroam](https://eduroam.org) network, allowing us to immediately connect to wifi in universities and research facilities all over the world. It's kinda cool and feels sorta old skool Internet. Something something something… sharing… knowledge. You know the vibe.
 
 ![Eduroam map](eduroam.png)
