@@ -43,7 +43,7 @@ This is how I have configured my setup but you can set it up however you like.
 
 As you can see, I have docked my `Animator` window next to the `Scene` window tab, and `Animation` next to my `Game` window tab. This configuration allows me to look at the `Scene` while ajusting `Animation` values below it while editing the game, and then observe which `Animator` sequence is playing when my `Game` is active in that window. Again, these are just preferences, and you can configure it however you like.
 
-As you can see in the above illustration, by selecting the `Cube` game object in our `Hierarchy`, the `Unity Editor` will explain that it can create an `Animation Clip` and an `Animator` of that clip for you by clicking on one single `Create` button. This is very handy, so go ahead and do that, making sure to save your files in the `Animations` folder in your `Project`. I have decided to call the name of my animation "`Spin.anim`".
+As you can see in the above illustration, by selecting the `Cube` game object in our `Hierarchy`, the Unity editor will explain that it can create an `Animation Clip` and an `Animator` of that clip for you by clicking on one single `Create` button. This is very handy, so go ahead and do that, making sure to save your files in the `Animations` folder in your `Project`. I have decided to call the name of my animation "`Spin.anim`".
 
 ![Unity Animation Files](unity-animation-files.png)
 
