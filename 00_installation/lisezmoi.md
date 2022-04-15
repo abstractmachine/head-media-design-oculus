@@ -30,7 +30,7 @@ Vous pouvez ajouter les autres modules de votre choix, par exemple WebGL, iOS, e
 ### Installer Oculus
 Installons maintenant les différents outils de développement qui vont nous permettre d'envoyer nos jeux directement sur notre casque Oculus.
 
-Ce didacticiel suit checklist fournie par Oculus sur son site de développeur: <https://developer.oculus.com/documentation/unity/unity-gs-overview>. Ce checklist est assez longue et vous n'avez pas besoin de suivre toutes les étapes. Je vais énumérer ici les éléments les plus importants. Si vous rencontrez des problèmes, vous pouvez toujours revenir en arrière et suivre la liste de contrôle complète étape par étape et, espérons-le, trouver la source de votre problème.
+Ce didacticiel suit checklist fournie par Oculus sur son site de développeur: [developer.oculus.com/.../unity-gs-overview](https://developer.oculus.com/documentation/unity/unity-gs-overview/). Ce checklist est assez longue et vous n'avez pas besoin de suivre toutes les étapes. Je vais énumérer ici les éléments les plus importants. Si vous rencontrez des problèmes, vous pouvez toujours revenir en arrière et suivre la liste de contrôle complète étape par étape et, espérons-le, trouver la source de votre problème.
 
 Dans les documents [Setup Development Environment](https://developer.oculus.com/documentation/unity/book-unity-gsg/) et [Enable Device for Development and Testing](https://developer.oculus.com/documentation/unity/unity-enable-device/), ils suggèrent les étapes suivantes :
 
