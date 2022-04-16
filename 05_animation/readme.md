@@ -99,6 +99,6 @@ To further simplify this relationship, the most important thing to understand is
 
 ![Unity Animator Animation](unity-game-animation-animator.png)
 
-So (highlight:orange text:`Animation`) is like a song, the (highlight:fuchsia text:`Controller`) is like a playlist, and the (highlight:blue text:`Animator`) behaves like its jukebox. Even if you only have one song in your playlist, you still need a jukebox to play it. Later on in a future tutorial we will explore controllers with multiple (highlight:yellow text:`Animation Clips`) that can easily switch in real-time which animation is playing, sometimes based on a fairly complex diagram of conditions.
+So (highlight:orange text:`Animation`) is like a song, the (highlight:fuchsia text:`Controller`) is like a playlist, and the (highlight:blue text:`Animator`) behaves like its jukebox. Even if you only have one song in your playlist, you still need a jukebox to play it. Later on in a future tutorial we will explore controllers with multiple (highlight:yellow text:`Animation Clips`) that can easily switch in real-time between animations, sometimes based on a fairly complex visual diagram of conditions.
 
 (youtube: 3mIwTWGOMY0)
