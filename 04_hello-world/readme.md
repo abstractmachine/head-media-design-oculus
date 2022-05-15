@@ -5,6 +5,10 @@ Videogames are not just an audiovisual medium, they are [affordant](https://en.w
 
 This process is called "greyboxing", because of all the gray boxes you spread about your `Scene` as you build your game.
 
+Here is a 2022 conference from Guerrilla’s Blake Rebouche, one of the designers of a popular Playstation game (wikipedia:Horizon Forbidden West keyword:Horizon_Forbidden_West). In this conference he breaks down all the various steps he and his collaborators went through when designing one of the quests in the game. Note how he moves quickly from a paper prototype (cf. 05:10) to a simplified greyboxed level that players can interact with using reduced gestures and puzzles. Only after these basic fundamentals have been worked out did the team start building complex models, lighting, or cinematics. Also note how they made extensive use of recorded playsessions with players commenting on their experiences with the levels (cf. 50:00), and went back a redesigned various aspects of their game based on this feedback.
+
+(youtube: KxcXUYx3eLQ?t=311)
+
 We've already seen how easy it is to build out your scene in Unity: open a new project or a new scene, click on the `+` button in the `Heirarchy` window, and start adding basic shapes. You don't need to code anything, or even understand much about modelling software, textures, shaders, photogrammetry, retopology, or whatever other nutty-sounding jargon YouTuber 3D bros throw at you.
 
 ![Unity Basic Shapes](unity-basic-shapes.png)

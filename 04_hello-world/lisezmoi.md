@@ -5,6 +5,10 @@ Les jeux vidéo ne sont pas seulement un média audiovisuel, ce sont des espaces
 
 Ce processus est appelé "greyboxing", en raison de toutes les boîtes grises que vous diffusez autour de votre `Scene` au fur et à mesure que vous construisez votre jeu.
 
+Voici une conférence de 2022 de Blake Rebouche, l'un des concepteurs d'un jeu Playstation populaire (wikipedia:Horizon Forbidden West keyword:Horizon_Forbidden_West language:fr). Dans cette conférence, il décompose toutes les différentes étapes que lui et ses collaborateurs ont traversées lors de la conception de l'une des quêtes du jeu. Notez comment il passe rapidement d'un prototype papier (cf. 05:10) à un niveau simplifié en boîte grise avec lequel les joueurs peuvent interagir en utilisant des gestes et des énigmes réduits. Ce n'est qu'après que ces principes de base ont été élaborés que l'équipe a commencé à créer des modèles, des éclairages ou des cinématiques complexes. Notez également comment ils ont largement utilisé les sessions de jeu enregistrées avec des joueurs commentant leurs expériences avec les niveaux (cf. 50:00), et sont revenus sur divers aspects repensés de leur jeu sur la base de ces commentaires.
+
+(youtube: KxcXUYx3eLQ?t=311)
+
 Nous avons déjà vu à quel point il est facile de créer votre scène dans Unity : ouvrez un nouveau projet ou une nouvelle scène, cliquez sur le bouton `+` dans la fenêtre `Heirarchy` et commencez à ajouter des formes de base. Vous n'avez pas besoin de coder quoi que ce soit, ni même de comprendre grand-chose sur les logiciels de modélisation, les textures, les shaders, la photogrammétrie, la retopologie ou tout autre jargon aux sonorités folles que les YouTuber 3d bros vous lancent.
 
 ![Unity Basic Shapes](unity-basic-shapes.png)

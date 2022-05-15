@@ -56,7 +56,7 @@ Nous devrions également citer l'installation/expérience [Osmose](http://www.me
 
 (youtube: https://www.youtube.com/watch?v=54O4VP3tCoY)
 
-Mais l'artiste qui nous a vraiment montré la voie de la réalité virtuelle (avec et sans casque), ainsi que de la réalité augmentée, et de tout un tas d'autres réalités qui n'ont pas encore été pleinement comprises, c'est [Jeffrey Shaw](https: //en.wikipedia.org/wiki/Jeffrey_Shaw). Si jamais il y avait un successeur au trône d'Ivan Sutherland, ce serait Jeffrey Shaw. Rendez-vous service et apprenez tout ce que vous pouvez sur Jeffrey Shaw et son travail :
+Mais l'artiste qui nous a vraiment montré la voie de la réalité virtuelle (avec et sans casque), ainsi que de la réalité augmentée, et de tout un tas d'autres réalités qui n'ont pas encore été pleinement comprises, c'est [Jeffrey Shaw](https://en.wikipedia.org/wiki/Jeffrey_Shaw). Si jamais il y avait un successeur au trône d'Ivan Sutherland, ce serait Jeffrey Shaw. Rendez-vous service et apprenez tout ce que vous pouvez sur Jeffrey Shaw et son travail :
 
 (vimeo: https://vimeo.com/442537219)
 
