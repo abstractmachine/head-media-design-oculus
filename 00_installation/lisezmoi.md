@@ -42,7 +42,7 @@ Dans les documents [Setup Development Environment](https://developer.oculus.com/
 D'après notre expérience, nous n'avons pas trouvé ce processus aussi facile que suggéré ci-dessus.
 
 ### Installer Oculus App
-La partie délicate de ce processus est l'application. Vous devez télécharger une application iOS/Android sur votre téléphone (cf. oculus.com/setup) afin de placer votre casque en mode développeur (`developer mode`). Dans l'application, vous trouverez ce bouton `developer mode` dans `Menu` > `Devices` > `My Quest #` > `Connect` > `Developer Mode`. Voici quelques captures d'écran avec (espérons-le) les boutons pertinents pour vous aider :
+La partie délicate de ce processus est l'application. Vous devez télécharger une application iOS/Android sur votre téléphone (cf. oculus.com/setup) afin de placer votre casque en mode développeur ((highlight:blue text:`developer mode`)). Dans l'application, vous trouverez ce bouton (highlight:blue text:`developer mode`) dans (highlight:orange text:`Menu`) > (highlight:fuchsia text:`Devices`) > (highlight:yellow text:`My Quest #`) > (highlight:green text:`Connect`) > (highlight:red text:`Developer Mode`). Voici quelques captures d'écran avec (espérons-le) les boutons pertinents pour vous aider :
 
 ![Oculus App Developer Mode](oculus-app-developer-mode-full.jpg)
 
@@ -71,17 +71,26 @@ L'astuce du wifi sophistiqué est de connecter correctement l'Oculus au réseau.
 - Password : AAI password
 
 ### Pairing Code
-Un problème que nous avons rencontré lors du couplage de notre casque Oculus à notre application Oculus a été de trouver le %$*# code d'appariement. Il est placé dans un endroit follement obscur : `Quick Settings` > `Settings` > `System` > `About` > `Pairing Code: #####`.
+Un problème que nous avons rencontré lors du couplage de notre casque Oculus à notre application Oculus a été de trouver le %$*# code d'appariement. Il est placé dans un endroit follement obscur : `Quick Settings` > `Settings` > `System` > `About` > (highlight:yellow text:`Pairing Code: #####`).
 
 ![Oculus Pairing Code](oculus-pairing-code.jpg)
 
 ### Developer Mode
-Ce que vous cherchez, c'est ce bouton bleu en mode développeur (cf. ci-dessus). Si ce bouton est actif, votre application est associée à notre casque et vous devriez être prêt•e à jouer.
+Ce que vous cherchez, c'est ce bouton bleu en mode développeur (cf. (highlight:blue text:`Developer Mode`) ci-dessous). Si ce bouton est actif, votre application est associée à notre casque et vous devriez être prêt•e à jouer.
 
 ![Oculus developer mode button](oculus-developer-mode-button.jpg)
 
 ### Activer Bluetooth
 Un détail curieux que nous avons découvert en essayant de jumeler notre Oculus : *vous devez avoir le Bluetooth actif dans votre téléphone pour que l'application trouve le casque*. Apparemment, Oculus utilise Bluetooth pour trouver tous les appareils Oculus à proximité.
+
+### Identifiant Facebook
+Un autre problème que certaines personnes ont rencontré dans nos projets est lié au fait d'avoir plusieurs comptes de développeur sur le même appareil. C'est tout à fait possible : si vous rencontrez des soucis, ne commencez pas à supprimer les comptes de vos collaborateurs par panique. Il vous suffit de vous assurer que vous vous êtes connecté avec le *même compte Facebook* sur votre téléphone et votre appareil Oculus Quest. Désolé d'insister, mais si vous rencontrez des problèmes vérifiez le points suivants :
+
+1. Assurez-vous d'avoir un **compte Facebook** (Oui, je sais, Facebook... Je ressens votre douleur)
+2. **Sur l'app Oculus de votre téléphone**, connectez-vous avec le même compte Facebook que vous utilisez dans votre casque
+3. **Sur votre casque Oculus**, connectez-vous avec le même compte Facebook que vous utilisez dans votre app téléphonique
+
+Ces instructions peuvent sembler absurdement redondantes, mais compte tenu du nombre de fois où j'ai rencontré ce problème... Ai-je également mentionné combien de fois j'ai vu des personnes se connecter avec différents comptes sur leurs deux appareils ?
 
 ### scrcpy
 * Pour les utilisateurs avancés *

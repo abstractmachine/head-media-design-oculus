@@ -29,7 +29,7 @@ Be careful though with the `Position`, `Rotation`, and `Scale` properties of the
 ![Unity Heirarchy Forest](unity-heirarchy-forest.png)
 
 ### ProBuilder
-Once you get tired of these simplistic shapes, but still want to quickly build out the basic shapes of your world, you can activate the `ProBuilder` tool that is build directly into the `Unity Editor`. This tool is both simple and extremely powerful, and most importantly fast. When the *costs* to building 3D shapes are low, you don't really hesitate to try new and weird things, tear them all down, and then rebuild them differently in a completely other direction. For this reason, `ProBuilder` is also a great tool for students who are just getting started with 3D modelling and are not yet familiar with the logic of thinking in 3D.
+Once you get tired of these simplistic shapes, but still want to quickly build out the basic shapes of your world, you can activate the `ProBuilder` tool that is built directly into the `Unity Editor`. This tool is both simple and extremely powerful, and most importantly fast. When the *costs* to building 3D shapes are low, you don't really hesitate to try new and weird things, tear them all down, and then rebuild them differently in a completely other direction. For this reason, `ProBuilder` is also a great tool for students who are just getting started with 3D modelling and are not yet familiar with the logic of thinking in 3D.
 
 (youtube: TYAYFfXg6tg)
 
