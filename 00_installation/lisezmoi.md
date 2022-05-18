@@ -107,3 +107,9 @@ brew install scrcpy
 Une fois cet outil installé sur votre machine, tapez simplement `scrcpy` dans votre terminal et il ouvrira une fenêtre affichant le contenu de votre casque Oculus.
 
 Si vous utilisez un ordinateur Windows, accédez à la page github [scrcpy](https://github.com/Genymobile/scrcpy) où ils ont un programme d'installation à télécharger. Suivez simplement les instructions qui s'y trouvent.
+
+Voici une bonne configuration que mon collègue [Pierre Rossel](https://github.com/prossel) a trouvée et qui fonctionne bien pour présenter des projets VR. L'idée ici est d'utiliser les paramètres `crop` pour prévisualiser un seul des yeux du casque VR :
+
+```
+scrcpy --crop 1632:1220:50:320
+```
