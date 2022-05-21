@@ -60,18 +60,18 @@ Mixamo is actually two things: an auto-rigging tool and a library of animated mo
 
 Today, most people just use Mixamo as a free downloadable library of characters and animations, without realizing that it can also be used to "auto-rig" your own hand-made characters. There is even a Mixamo Blender plug-in tool that allows you to auto-rig your Blender models using the Mixamo system directly from within the software, but this is outside the scope of our tutorial (cf. [Mixamo addon for Blender](https://www.youtube.com/watch?v=wYqJ7AyEuhc)).
 
-### Chrome
+### Chrome Browser
 We will use Mixamo entirely through their website. For now, the only browser that seems to work with it is [Google Chrome](https://www.google.com/chrome/). Yes yes, we know: Chrome is a beast that will suck your battery dry. Nevertheless, you probably will have to use Chrome.
 
 ### Login
-If you already have an Adobe account, begin by (highlight:yellow text:`Logging In`) in to the Mixamo website with your account; or (highlight:fuchsia text:`Sign Up`) for a new account. Use of the Mixamo website is (for now) free.
+If you already have an Adobe account, (highlight:yellow text:`Log In`) in to the Mixamo website with your account, or (highlight:fuchsia text:`Sign Up`) for a new account. Use of the Mixamo website is (for now) free.
 
-![Mixamo sign-in](mixamo-sign-in.jpg)
+(image:mixamo-sign-in.jpg)
 
 ### Character
 There are two main sections in the Mixamo website: (highlight:orange text:`Characters`), where you (highlight:purple text:`choose`) a character or (highlight:blue text:`upload`) your own, and (highlight:red text:`Animations`) where you apply animations to your currently selected character. We will begin by selecting a character.
 
-![Mixamo select character](mixamo-select-character.png)
+(image:mixamo-select-character.png)
 
 Meet (highlight:purple text:`Louise`). Louise wears a suit. With Louise, I have purposefully selected a fairly unassuming businesswoman. Louise wears heels, and knows how to walk in them. Louise gets the job done. Outside of Louise and a few of her colleagues, you'll find all variants of sexualized nymphette manic pixie girls, derivations of white-male-dude-bros, and whatever other [overwrought videogame tropes](https://feministfrequency.com/video-series/) you'd probably expect in a character collection. It's a mixed bag. Again, if you want to move on from outdated tropes, you'll need to either design your own (cf. Blender, above) or use software like [Character Creator](https://www.reallusion.com/character-creator/) (cf. above) and work all sorts of inclusive slider magic.
 
@@ -80,39 +80,39 @@ For now, Louise isn't animated. As you can see at the bottom of this window, the
 ### Animation
 Now that you've chosen your character, press the (highlight:red text:`Animations`) tab to select a looped animation for her. I always start by searching for a good (highlight:purple text:`idle`) animation, and usually select a subtle idle movement in order to get a sense of the nuances of the character. An "idle" animation is a looping animation of the character at rest: alive, animated, breathing, ready for action, but not yet engaged. Once you have (highlight:blue text:`selected your animation`), you should now see a number of (highlight:green text:`frames`) for this animation sequence, and the animation should be playing in a loop.
 
-![Mixamo select animation](mixamo-select-animation.png)
+(image:mixamo-select-animation.png)
 
 ### ♫ The Knee bone is connected to the thigh bone ♫
 If you want to better understand how these 3d humanoid animations work, select the (highlight:fuchsia text:`skeleton view`) icon which will show you the normally invisible skeletal "`rig`" that deforms the 3D mesh, much the same way bones (and muscles) control the shape of our body. This rudimentary image will also help you to understand how animations will work later inside of the Unity "Mecanim" animator system: this concept of a "rig" of "bones" is what allows an animated character to transition seamlessly from one pose or movement to another, as well as adapt (within limits) to different body lengths and heights. You should now see your animated bones without any skin, which technically means without any `3D meshes`, `textures`, or `materials`.
 
-![Mixamo skeleton view](mixamo-skeleton-view.jpg)
+(image:mixamo-skeleton-view.jpg)
 
 These `bones` are the actual positions of a real human moving in physical space, recorded by a motion capture system over time, frame by frame, and now playing back in Mixamo. This recording from a motion capture system is nothing else than a record of the `x`/`y`/`z` positions and rotations of these bones over time. These animations do not even need to record any physical attributes other than these `x`/`y`/`z` positions and rotations. The final 3D animation will require injecting these invisible bones into a character's 3D `mesh` and allowing these bones to move the vertices of the model as if it were pliable skin on a human body.
 
 ### Download
 Once we have applied an (highlight:red text:`animation`) to our (highlight:orange text:`character`) we are now ready to (highlight:yellow text:`download`) both and import them as a single entity into Unity. In the download settings window, you will need to select (highlight:fuchsia text:`FBX for Unity`) as your format. You can leave the other settings alone (`with skin`, `30 frames per second`, `no keyframe reduction`), and then (highlight:brown text:`download`) the file.
 
-![Mixamo download settings](mixamo-download-settings.png)
+(image:mixamo-download-settings.png)
 
 This downloaded `FBX`-format file will usually come with a fairly unreadable name. In my case, she was named (highlight:sky text:`Ch07_nonPBR@Idle.fbx`). But since her name is Louise, I decided to just give her the more appropriate filename (highlight:sky text:`Louise-Idle.fbx`).
 
-![Mixamo FBX File](mixamo-file-renamed.jpg)
+(image:mixamo-file-renamed.jpg)
 
 ### Import
 There are many ways to import a file into Unity. The easiest is probably to just drag the `.fbx` file into your (highlight:green text:`Project`) window's `Assets` folder.
 
-![Drag fbx file into Unity](unity-drag-drop.jpg)
+(image:unity-drag-drop.jpg)
 
 Make sure your `Assets` folder is well organised, with clear names: projects in Unity can quickly get out of control — keep your names simple. Here I have created a folder named `Models` (capital `M`, plural `s`), and inside that folder is a sub-folder named `Louise` that will contain all the model information about her: materials, textures, animations, and so on.
 
 If you select your imported model and look at its `Inspector`, you will see that (highlight:orange text:`Louise`) has not imported with any materials applied to her. Louise, sadly, is gray. Nothing wrong with gray, but we were expecting a dark blue business suit. We will correct this in a moment. We will also give our `Idle` animation a better name than its current default name (highlight:red text:`mixamo.com`). If you don't see your character `Preview`, try clicking on the (highlight:orange text:`horizontal grey lines`) at the bottom of the inspector, or click on the (highlight:orange text:`three dots`) at the bottom right corner of the `Inspector` and choose `Convert to Floating Window`.
 
-![Mixamo missing materials](unity-model-import-missing-materials.png)
+(image:unity-model-import-missing-materials.png)
 
 ### Model Settings
 As you can see below, there are a *lot* of possible settings for a model, which can seem scary at first. Note that there are four tabs: (highlight:fuchsia text:`Model`), (highlight:green text:`Rig`), (highlight:red text:`Animation`), and (highlight:purple text:`Materials`). Fairly quickly you will see that each section actually makes quite a lot of sense. We will only select the absolute essentials here, in order to keep the scary button worries (*"what are all these buttons for!?"*) to a minimum.
 
-![Model Import Settings](unity-model-import-settings.png)
+(image:unity-model-import-settings.png)
 
 Inside the (highlight:fuchsia text:`Model`) tab, we will deactivate the (highlight:fuchsia text:`Cameras`) and (highlight:fuchsia text:`Lights`) options. We are not creating a product packshot: we are creating a real-time interactive environment inside of Unity that will use its own camera and lighting system. There are a lot of other useful options inside of this tab, but for now let's keep things simple and ignore all the others. To apply any changes you make, don't forget to click on the `Apply` button at the bottom of this window.
 
@@ -125,19 +125,21 @@ Finally, let's give Louise her colors and materials back. Select the (highlight:
 ### Avatar Configuration
 If you want to play around with the (highlight:orange text:`Avatar`) system, select the (highlight:green text:`Rig`) tab above and click on the (highlight:orange text:`Configure`) button. This will open the (highlight:blue text:`Avatar Configuration`) window and place your avatar into the `T-Pose`. Try playing around with the `Muscles & Settings` options to see how well your avatar reacts to its rig. Once you are done configuring your avatar, you can return to the previous (highlight:green text:`Rig`) tab with the (highlight:brown text:`Done`) button at the bottom right of the `Inspector`. 
 
-![Unity Avatar Configuration](unity-avatar-configuration.png)
+(image:unity-avatar-configuration.png)
 
 ### Opaque Textures
 One problem with Mixamo materials is that they come poorly configured into Unity with flipped normals, meaning that our characters look like weird inverted skin monsters. For my Louise imported model, her clothing was fine, but her hair was oddly configured. A simple fix for this problem is to select our extracted (highlight:purple text:`Ch07_hair`) material, and change its `Rendering Mode` to (highlight:orange text:`Opaque`). Louise should now have normal hair.
 
-![Unity Material Fix Opacity](unity-model-fix-opacity-bug.png)
+(image:unity-model-fix-opacity-bug.png)
 
-### Place Model In Scene
+### Game Object
 Now that we have configured our model correctly, and fixed the weird material bug, we can drag Louise into our (highlight:brown text:`Heirarchy`) so that she appears in the scene. I've placed her at the center of the scene, and turned her (highlight:pink text:`180°`) around the `Y` axis so that she's facing the camera. I've also moved the camera closer to her so that we can see her better.
 
-![Unity add animation to animator](unity-add-animation-to-animator.png)
+(image:unity-add-animation-to-animator.png)
 
 ### Animator
 If you play your game now, you will not yet see the animation we imported with Louise. We need to drag the (highlight:green text:`Idle`) animation from our `Project` window's `Assets` folder, directly onto our (highlight:brown text:`Game Object`) that is now in our `Scene` and `Heirarchy` views. This will add the (highlight:green text:`Idle`) animation to Louise's (highlight:sky text:`Animation Controller`) where it should automatically be selected as the default animation upon (highlight:red text:`Entry`) into the game.
 
 If you now press the `Play` button, you should see Louise breathing via her looped `Idle` animation sequence.
+
+(unity:louise width:640 height:400)
