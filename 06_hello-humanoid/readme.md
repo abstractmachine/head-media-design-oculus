@@ -110,7 +110,14 @@ If you select your imported model and look at its `Inspector`, you will see that
 (image:unity-model-import-missing-materials.png)
 
 ### Model Settings
-As you can see below, there are a *lot* of possible settings for a model, which can seem scary at first. Note that there are four tabs: (highlight:fuchsia text:`Model`), (highlight:green text:`Rig`), (highlight:red text:`Animation`), and (highlight:purple text:`Materials`). Fairly quickly you will see that each section actually makes quite a lot of sense. We will only select the absolute essentials here, in order to keep the scary button worries (*"what are all these buttons for!?"*) to a minimum.
+As you can see below, there are a *lot* of possible settings for a model, which can seem scary at first. Note that there are four tabs: (highlight:fuchsia text:`Model`), (highlight:green text:`Rig`), (highlight:red text:`Animation`), and (highlight:purple text:`Materials`).
+
+- `Model` deals with the 3D mesh (it's shape) and various settings related to the mesh (quality, compression, scale, etc)
+- `Rig` allows you to import or create a skeleton rig that will move the 3D mesh
+- `Animation` is the keypoint animation of the skeleton rig. You can rename, fine-tune, and select the time codes of the various animations of the character 
+- `Materials` are the appearance of the character: the colors, textures, and shaders that define the appearance of the skin/clothing of the character
+
+Over time you will eventually see that each section breaks down neatly into specific aspects of these four concepts. All four are essential to how 3D characters work in Unity. Given the number of parameters, we will only select the absolute essentials here, in order to keep the scary button worries (*"what are all these buttons for!?"*) to a minimum.
 
 (image:unity-model-import-settings.png)
 

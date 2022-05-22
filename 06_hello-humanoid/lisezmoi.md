@@ -110,7 +110,14 @@ Si vous sélectionnez votre modèle importé et regardez son `Inspector`, vous v
 (image:unity-model-import-missing-materials.png)
 
 ### Paramètres du modèle
-Comme vous pouvez le voir ci-dessous, il y a * beaucoup * de paramètres possibles pour un modèle, ce qui peut sembler effrayant au premier abord. Notez qu'il y a quatre onglets : (highlight:fuchsia text:`Model`), (highlight:green text:`Rig`), (highlight:red text:`Animation`) et (highlight:purple text:`Materials`). Assez rapidement, vous verrez que chaque section a en fait beaucoup de sens. Nous ne sélectionnerons ici que l'essentiel, afin de limiter au maximum les soucis effrayants des boutons *(« à quoi servent tous ces boutons !? »)*.
+Comme vous pouvez le voir ci-dessous, il y a * beaucoup * de paramètres possibles pour un modèle, ce qui peut sembler effrayant au premier abord. Notez qu'il y a quatre onglets : (highlight:fuchsia text:`Model`), (highlight:green text:`Rig`), (highlight:red text:`Animation`) et (highlight:purple text:`Materials`).
+
+- `Modèle` traite du maillage 3D (c'est sa forme) et de divers paramètres liés au maillage (qualité, compression, échelle, etc.)
+- `Rig` vous permet d'importer ou de créer un rig squelette qui déplacera le maillage 3D
+- `Animation` est l'animation du point clé de la plate-forme squelette. Vous pouvez renommer, affiner et sélectionner les codes temporels des différentes animations du personnage
+- Les `Materials` sont l'apparence du personnage : les couleurs, les textures et les shaders qui définissent l'apparence de la peau/des vêtements du personnage
+
+Au fil du temps, vous verrez éventuellement que chaque section se décompose parfaitement en aspects spécifiques de ces quatre concepts. Tous les quatre sont essentiels au fonctionnement des personnages 3D dans Unity. Vu le nombre de paramètres, nous ne sélectionnerons ici que l'essentiel, afin de limiter au maximum les soucis effrayants des boutons *("à quoi servent tous ces boutons !?")*.
 
 (image:unity-model-import-settings.png)
 
