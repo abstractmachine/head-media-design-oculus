@@ -1,5 +1,0 @@
-Title: Hello Editor
-----
-Cover: 
-----
-Readme: readme.md

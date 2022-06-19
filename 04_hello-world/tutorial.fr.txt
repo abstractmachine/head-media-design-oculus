@@ -1,5 +1,0 @@
-Title: Bonjour Monde
-----
-Cover: 
-----
-Readme: lisezmoi.md

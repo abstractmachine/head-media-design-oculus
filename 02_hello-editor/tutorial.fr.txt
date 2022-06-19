@@ -1,5 +1,0 @@
-Title: Bonjour Éditeur
-----
-Cover: 
-----
-Readme: lisezmoi.md

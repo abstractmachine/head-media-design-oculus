@@ -1,5 +1,0 @@
-Title: Hello World
-----
-Cover: 
-----
-Readme: readme.md

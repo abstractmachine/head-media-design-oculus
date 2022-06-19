@@ -1,0 +1,5 @@
+Title: Editor
+----
+Cover: 
+----
+Readme: readme.md
