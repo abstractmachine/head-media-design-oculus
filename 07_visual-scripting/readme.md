@@ -63,7 +63,7 @@ For now, I am leaving the `Cube`'s (highlight:blue text:`Default-Material`): we 
 ### Embeded Script
 If we press the `Play` button now, our `Cube` won't do anything. Let's change that. Let's add a `Script` and see how quickly we can get it to do something. Select the `Cube`. Press (highlight:red text:`Add Component`) and find the `Visual Scripts` → `Script Machine` component inside of that list. Select it in order to add it to your `Cube`.
 
-This `Script Machine` is not the script itself, but instead the `Machine` that executes the `Script`'s instructions. Think of the `Script Machine` as the brain: it still needs a `Script` to tell it how to think and what to do. The fastest way to add an actual `Script` to this `Script Machine` is to select the `Source`: `Embed` option and click on `Edit Graph`. This should open up your first `Script Graph` with two `Script Nodes` already added for you by default: `On Update` and `On Start`. This `Script Graph` is the visual diagram of how your object will behave.
+This `Script Machine` is not the script itself, but instead the `Machine` that executes the `Script`'s instructions. Think of the `Script Machine` as the brain: it still needs a `Script` to tell it how to think and what to do. The fastest way to add an actual `Script` to this `Script Machine` is to select the `Source`: `Embed` option. An `Embedded` script means that a script will be applied directly to our object, and in fact, specifically to this object alone. Click on `Edit Graph`, which should open up your first `Script Graph` with two `Script Nodes` already added for you by default: `On Update` and `On Start`. This `Script Graph` is the visual diagram of how your object will behave.
 
 ![Create embed script behavior](add-visualscript-spin.gif)
 
