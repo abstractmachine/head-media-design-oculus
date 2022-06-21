@@ -1,4 +1,4 @@
-Title: Unity + Oculus VR
+Title: Unity VR
 ----
 Cover: 
 ----
