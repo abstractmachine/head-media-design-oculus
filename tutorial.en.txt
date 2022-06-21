@@ -5,7 +5,7 @@ Cover:
 Intro:
 Unity is the name of the (link:https://www.youtube.com/watch?v=sNkKIHsE1hk text:1977 album) by the curious jazzman from the planet Saturn, (link:https://en.wikipedia.org/wiki/Sun_Ra text:Sun Ra) and his Jet Set Omniverse Arkestra. It is also the name of the unreleased (link:https://www.unseen64.net/2008/04/08/unity-gc-cancelled/ text:psychadelic GameCube title) built in 2004 by the cult game creator (link:https://en.wikipedia.org/wiki/Jeff_Minter text:Jeff Minter). It is also the name of (link:http://unity3d.com text:the most popular *engine* for creating video games).
 
-This tutorial on building a Unity + Oculus project from scratch was created for the [Master Media Media](https://www.hesge.ch/head/en/programs-research/master-arts-media-design), HEAD – Genève.
+This tutorial on building a Unity VR project from scratch was created for the [Master Media Media](https://www.hesge.ch/head/en/programs-research/master-arts-media-design), HEAD – Genève.
 ----
 readme: README.md
 ----
