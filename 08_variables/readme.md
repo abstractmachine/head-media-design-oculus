@@ -1,0 +1,1 @@
+Variables are a fundamental concept in programming.
