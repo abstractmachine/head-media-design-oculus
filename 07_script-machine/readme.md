@@ -93,9 +93,9 @@ Let's change materials to make this interaction visible.
 
 Create a new folder named (highlight:purple text:`Materials`) inside your `Project` folder. Note the capital `M` and the plural `s` and the end of this folder. This is a Unity naming convention that will help you keep your `Project` folder organised.
 
-Inside your (highlight:purple text:`Materials`) folder, (highlight:red text:`create`) two new `Materials` with two colors. I've called my colors (highlight:yellow text:`Hot`) and (highlight:yellow text:`Cold`), but you can call them whatever you want and give them (highlight:green text:`whatever color`) you want. These two colors will be used whenever we click *down* or *up* on the `Cube` with our mouse. 
+Inside your (highlight:purple text:`Materials`) folder, (highlight:red text:`create`) three new `Materials` with three different colors. I've called my colors (highlight:yellow text:`Hot`), (highlight:yellow text:`Cold`), and (highlight:yellow text:`Default`) but you can call them whatever you want and give them (highlight:green text:`whatever color`) you want. The first two colors will be used whenever we click *down* or *up* on the `Cube` with our mouse. We'll use the third color ((highlight:yellow text:`Default`)) later at the end of this tutorial.
 
-![New Materials](new-materials-hot-cold.jpg)
+![New Materials](new-materials-hot-cold-default.jpg)
 
 As you can see in the example below, the component inside of our `Cube` that we want to change is called the `Mesh Renderer`. Currently the `Cube`'s `Mesh Renderer` has the `Default-Material` listed as its first and only `Material`. This value can change while the scene plays. We can modify it via our `Script Graph` whenever a mouse `Event` takes place interactively.
 

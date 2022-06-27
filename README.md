@@ -92,28 +92,28 @@ This tutorial uses the [Oculus Quest](https://www.oculus.com/quest-2/) 1 & 2 hea
 ### Virtual Haiku & The City of Tomorrow
 Starting during the 2020 confinement, my colleagues Marion Bareil and Pierre Rossel designed a series of courses ([Virtual Haiku](https://www.hesge.ch/head/en/project/master-media-design-virtual-haiku) & [The City of Tomorrow](https://www.hesge.ch/head/en/project/vr-workshop-imagining-city-tomorrow)) around virtual reality headsets using the players' gaze as the primary mode of interaction. Here are a few projects from that course:
 
-(vimeo: https://vimeo.com/465320477)
+(vimeo: 465320477)
 
-(vimeo: https://vimeo.com/465315601)
+(vimeo: 465315601)
 
-(vimeo: https://vimeo.com/568886317)
+(vimeo: 568886317)
 
-(vimeo: https://vimeo.com/568883212)
+(vimeo: 568883212)
 
-(vimeo: https://vimeo.com/568885645)
+(vimeo: 568885645)
 
-(vimeo: https://vimeo.com/568885456)
+(vimeo: 568885456)
 
-(vimeo: https://vimeo.com/568884516)
+(vimeo: 568884516)
 
-(vimeo: https://vimeo.com/465314621)
+(vimeo: 465314621)
 
-(vimeo: https://vimeo.com/465320377)
+(vimeo: 465320377)
 
-(vimeo: https://vimeo.com/465320217)
+(vimeo: 465320217)
 
-(vimeo: https://vimeo.com/465320316)
+(vimeo: 465320316)
 
 And here are a few other projects from our [Master Media Design](https://www.hesge.ch/head/en/programs-research/master-arts-media-design) that showcase the use of virtual reality headsets:
 
-(vimeo: https://vimeo.com/210307366)
+(vimeo: 210307366)

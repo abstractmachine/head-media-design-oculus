@@ -96,28 +96,28 @@ Ce didacticiel utilise les casques [Oculus Quest](https://www.oculus.com/quest-2
 ### Haïku virtuel & La ville de demain
 Dès le confinement 2020, mes collègues Marion Bareil et Pierre Rossel ont conçu une série de cours ([Virtual Haiku](https://www.hesge.ch/head/projet/master-media-design-virtual-haiku) & [La Ville de Demain](https://www.hesge.ch/head/projet/workshop-vr-imaginer-ville-demain)) autour de casques de réalité virtuelle utilisant le regard des joueurs comme premier mode d'interaction. Voici quelques projets issus de ce cours :
 
-(vimeo: https://vimeo.com/465320477)
+(vimeo: 465320477)
 
-(vimeo: https://vimeo.com/465315601)
+(vimeo: 465315601)
 
-(vimeo: https://vimeo.com/568886317)
+(vimeo: 568886317)
 
-(vimeo: https://vimeo.com/568883212)
+(vimeo: 568883212)
 
-(vimeo: https://vimeo.com/568885645)
+(vimeo: 568885645)
 
-(vimeo: https://vimeo.com/568885456)
+(vimeo: 568885456)
 
-(vimeo: https://vimeo.com/568884516)
+(vimeo: 568884516)
 
-(vimeo: https://vimeo.com/465314621)
+(vimeo: 465314621)
 
-(vimeo: https://vimeo.com/465320377)
+(vimeo: 465320377)
 
-(vimeo: https://vimeo.com/465320217)
+(vimeo: 465320217)
 
-(vimeo: https://vimeo.com/465320316)
+(vimeo: 465320316)
 
 Et voici quelques autres projets de notre [Master Media Design](https://www.hesge.ch/head/en/programs-research/master-arts-media-design) qui mettent en avant l'utilisation des casques de réalité virtuelle :
 
-(vimeo: https://vimeo.com/210307366)
+(vimeo: 210307366)

@@ -93,9 +93,9 @@ Changeons de matériaux pour rendre visible cette interaction.
 
 Créez un nouveau dossier nommé (highlight:purple text:`Materials`) dans votre dossier "Projet". Notez le "M" majuscule et le "s" pluriel ainsi que la fin de ce dossier. Il s'agit d'une convention de dénomination Unity qui vous aidera à organiser votre dossier "Project".
 
-Dans votre dossier (highlight:purple text:`Materials`), (highlight:red text:`create`) deux nouveaux `Materials` avec deux couleurs. J'ai appelé mes couleurs (highlight:yellow text:`Hot`) et (highlight:yellow text:`Cold`), mais vous pouvez les appeler comme vous voulez et leur donner (highlight:green text:`whatever color`) tu veux. Ces deux couleurs seront utilisées chaque fois que nous cliquons *vers le bas* ou *vers le haut* sur le `Cube` avec notre souris.
+Dans votre dossier (highlight:purple text:`Materials`), (highlight:red text:`créez`) trois nouveaux `Materials` avec trois couleurs différentes. J'ai appelé mes couleurs (highlight:yellow text:`Hot`), (highlight:yellow text:`Cold`), et (highlight:yellow text:`Default`) mais vous pouvez les appeler comme vous voulez et leur donner (highlight:green text:`les coleurs`) que vous voulez. Les deux premières couleurs seront utilisées chaque fois que nous cliquons *vers le bas* ou *vers le haut* sur le `Cube` avec notre souris. La troisième couleur ((highlight:yellow text:`Default`)) sera utilisée plus tard dans ce tutoriel.
 
-![New Materials](new-materials-hot-cold.jpg)
+![New Materials](new-materials-hot-cold-default.jpg)
 
 Comme vous pouvez le voir dans l'exemple ci-dessous, le composant à l'intérieur de notre `Cube` que nous voulons changer s'appelle le `Mesh Renderer`. Actuellement, le `Mesh Renderer` du `Cube` a le `Default-Material` répertorié comme son premier et unique `Material`. Cette valeur peut changer pendant la lecture de la scène. Nous pouvons le modifier via notre `Script Graph` chaque fois qu'un `Event` de souris a lieu de manière interactive.
 
@@ -114,6 +114,7 @@ Maintenant que mon script est indépendant de mon `Cube`, je peux créer un deux
 
 ![Capsule Script Machine](capsule-scriptmachine-colorchange.jpg)
 
-Lorsque j'appuie sur `Play`, le script s'applique aux deux `Game Objects`, mais indépendamment, grâce au mot-clé `This` qui permet à chaque objet de comprendre que les modifications de `Material` ne s'appliquent qu'à l'objet lui-même, indépendamment de l'autre .
+Lorsque j'appuie sur `Play`, le script s'applique aux deux `Game Objects`, mais indépendamment, grâce au mot-clé `This` qui permet à chaque objet de comprendre que les modifications de `Material` ne s'appliquent qu'à l'objet lui-même, indépendamment de l'autre.
 
 ![Two objects spinning](spin-two-objects.gif)
+
