@@ -54,7 +54,7 @@ Press (highlight:green text:`Play`) and you should now see a preview in the scen
 So far this doesn't do anything significant. There are currently no instructions in our cube to describe how it should behave whenever this (highlight:fuchsia text:`Ray`) intersects. Let's add that behavior now.
 
 ### Script Graph
-Here is a screenshot of a new (highlight:blueish text:`Script Graph`) that I added to the (highlight:pink text:`Cube`). Note that we are placing this behavior on the *cube* that *receives* the gaze, and not on the `Camera`. This will potentially allow us to add multiple behaviors on objects of differing ilk, each being able to intepret in their own way what it means to receive the player's gaze.
+Here is a screenshot of a new (highlight:blueish text:`Script Graph`) that I added to the (highlight:pink text:`Cube`). Note that we are placing this behavior on the *cube* that *receives* the gaze, and not on the `Camera` that sends out the (highlight:fuchsia text:`Ray`) probe. This will potentially allow us to add multiple behaviors on objects of differing ilk, each being able to intepret in their own way what it means to receive the player's gaze.
 
 ![Cube New Script Graph](gaze-cube-script-graph.png)
 
