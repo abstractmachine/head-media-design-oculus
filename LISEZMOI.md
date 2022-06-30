@@ -100,23 +100,23 @@ Dès le confinement 2020, mes collègues Marion Bareil et Pierre Rossel ont con�
 
 (vimeo: 465315601)
 
+(vimeo: 465314621)
+
 (vimeo: 568886317)
 
 (vimeo: 568883212)
 
 (vimeo: 568885645)
 
-(vimeo: 568885456)
+(vimeo: 568885456 width:500vw height:500vw)
 
-(vimeo: 568884516)
+(vimeo: 568884516 width:500vw height:500vw)
 
-(vimeo: 465314621)
+(vimeo: 465320377 width:500vw height:500vw)
 
-(vimeo: 465320377)
+(vimeo: 465320217 width:500vw height:500vw)
 
-(vimeo: 465320217)
-
-(vimeo: 465320316)
+(vimeo: 465320316 width:500vw height:500vw)
 
 Et voici quelques autres projets de notre [Master Media Design](https://www.hesge.ch/head/en/programs-research/master-arts-media-design) qui mettent en avant l'utilisation des casques de réalité virtuelle :
 

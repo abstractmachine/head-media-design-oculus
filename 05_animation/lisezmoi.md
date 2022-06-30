@@ -8,7 +8,7 @@ Le concept d'images clés a émergé lors de la phase d'industrialisation de la 
 
 Comme l'explique le documentaire suivant sur le studio de Max Fleicher des années 1930, il y a deux premières étapes importantes dans la production de films d'animation : (a) la création de ce qu'ils appellent ici des « key pictures » (images clés), et (b) la création de « in-between drawings » (dessins intermédiaires) que le documentaire appelle aussi « in-betweeners » ou « in-betweens » (entre-deux) :
 
-(youtube: RxJOw5O0h8o)
+(youtube: WVsw0rb5LpM)
 
 Dans ce type d'animation, les images « clés » sont les images importantes au début et à la fin de la séquence d'animation, ainsi que les points visuels clés qui marquent les pics de divers changements de mouvement de chaque personnage et des objets de la scène. Ces images « clés » ne représentent pas toutes les images du mouvement, juste les points *clés* du mouvement. Si vous avez ces points clés, vous pouvez plus facilement combler les lacunes des images * entre les deux * en complétant les positions intermédiaires du personnage lorsqu'il déplace son corps de l'image clé A à l'image clé B, puis à l'image clé C , et ainsi de suite. Les clés ne contiennent pas toutes les images animées. L'ensemble des images *entre* ces images clés seront dessinées plus tard par l'équipe qui s'occupe des « intermédiaires ». Cette équipe s'assurent que chaque image intermédiare du mouvement est correctement dessinée pour que l'ensemble arrive sans accoup à l'image « clé » souhaitée.
 

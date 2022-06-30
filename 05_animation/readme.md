@@ -8,7 +8,7 @@ The concept of keyframes emergerd during the industrialisation phase of animated
 
 As the following documentary of Max Fleicher's studio from the 1930s explains, there are two important early stages in animated film production: (a) the creation of what they here call « key pictures », and (b) the creation of « in-between drawings » which the documentary also calls « in-betweeners » or « in-betweens »:
 
-(youtube: RxJOw5O0h8o)
+(youtube: WVsw0rb5LpM)
 
 In this type of animation, the « key » frames are the important frames at the beginning and the end of the animation sequence, as well as the key visual points that mark the peaks of various movement changes of each character and the objects in the scene. These « key » images do not represent every frame of movement, just the *key* points of the movement. If you have these key points, you can more easily fill in the gaps of images *in-between* by completing the intermediary positions of the character as they move their body from key frame A to key frame B and then on to key frame C, and so on and on. The keys do not contains all animated images, the actual image-by-image changes *in-between* these key frames are drawn by the "in-betweeners" who make sure that each step of the movement is correctly drawn so that it arrives precisely at the desired "key" frame at the end of the movement.
 
