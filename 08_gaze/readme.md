@@ -11,7 +11,7 @@ At the [Media Design Master](https://www.hesge.ch/head/en/programs-research/mast
 
 (vimeo: 568883212 width:500vw height:500vw)
 
-For a recent class we taught together, Pierre Rossel adapted this gaze-detection approach to a simple series of scripts built with visual scripting: [VS Gaze Detector](https://github.com/prossel/VS-gaze-detector). We will now use these scripts to add gaze interactions to Unity.
+For a recent class we taught together, Pierre Rossel adapted this gaze-detection approach into a simple series of scripts built with visual scripting: [VS Gaze Detector](https://github.com/prossel/VS-gaze-detector). We will now use these scripts to add gaze interactions to Unity.
 
 ### New Project
 In my Unity Hub, I've created a new 3D project named (highlight:orange text:`Gaze`) but you can call yours whatever you want. I'm using (highlight:cyan text:`Unity 2021.3`); if you are using another version of Unity, these instructions should still work fine as long as you are using at least `Unity 2021.1` or later.
