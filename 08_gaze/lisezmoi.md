@@ -73,3 +73,24 @@ Nous avons créé quatre nœuds dans ce graphique, en utilisant nos nouveaux év
 - L'événement (highlight:sky text:`OnGazeTimer`) est très pratique et se déclenche chaque fois que nous restons à regarder cet objet plus longtemps qu'un nombre défini de secondes. Ici, nous avons défini cette valeur (highlight:sky text:`Duration`) sur (highlight:sky text:`2`) secondes. Lorsque cette action se déclenche, nous remplaçons le `Material` du (highlight:pink text:`Cube`) par la couleur `Hot` créée plus tôt dans ce didacticiel. Dans l'illustration ci-dessous, le cube devient rouge chaque fois que la joueuse le regarde pendant plus de `2` secondes. Comme nous n'avons pas besoin de changer constamment cette couleur, nous avons laissé son option `Repeat` décochée.
 
 ![Gaze Raycast interactions with Cube](gaze-raycast-change-material.gif)
+
+### XR Rig
+Jusqu'à présent, nous simulions la détection du regard du joueur à l'aide de la souris. Le [VS Gaze Detector](https://github.com/prossel/VS-gaze-detector) contenait un script nommé (highlight:blue text:`MouseLookAround`) que vous placez sur votre `Camera` pour simuler le fait de regarder autour de vous 360°. Mais ce que nous voulons vraiment, c'est pouvoir regarder tout autour tout en portant un casque VR. Convertissons donc notre interaction de projet basée sur la souris en une interaction de casque VR en activant le "mode de réalité virtuelle".
+
+En suivant les instructions (tutorial:XR Plugin link:unity-vr/xr), ouvrez le menu `Edit` > `Project Settings`, trouvez la section (highlight:blue text:`XR Plugin Management`) et sélectionnez (highlight:orange text:`Install XR Plugin Management`).
+
+![Unity Settings Install XR Plugin](unity-settings-xr-plugin.png)
+
+Si vous utilisez un casque Oculus, sélectionnez l'onglet (highlight:green text:`Android`) (cf. icône du petit robot) dans cet outil et activez l'option (highlight:sky text:`Oculus`).
+
+![Unity Settings Oculus](unity-settings-android-oculus.png)
+
+Nous pouvons maintenant *convertir* la caméra "principale" du cyclope borgne par défaut en un « rig » compatible avec un casque VR binoculaire : sélectionnez le bouton (highlight:fuchsia text:`+`), choisissez (highlight:red text:`XR`) > (highlight:red text:`Convert Main Camera to XR Rig`) (c'est-à-dire « convertir la caméra principale en XR Rig »).
+
+![Unity Convert Camera to XR Rig](unity-convert-to-xr-rig.png)
+
+Si vous avez converti votre `Camera` en un (highlight:red text:`XR Rig`) à partir des étapes précédentes de ce didacticiel, tous vos scripts sur votre caméra devraient être restés intacts. Si c'est le cas, appuyez sur le bouton (highlight:brown text:`Play`) : vous devriez toujours pouvoir simuler le déplacement autour de votre casque à l'aide de la souris ou du trackpad de votre ordinateur.
+
+![Unity XR Rig with scripts](unity-xr-rig-with-scripts.png)
+
+Si, pour une raison quelconque, vous avez commencé à zéro avec une scène vide, ouvrez la nouvelle (highlight:cyan text:`Camera`) et chercher son (highlight:cyan text:`XR Rig`), puis faites glisser les scripts (highlight:pink text:`GazeRaycaster`) et (highlight:purple text:`MouseLookAround`) dans l'`Inspector` de cette (highlight:cyan text:`Camera`).

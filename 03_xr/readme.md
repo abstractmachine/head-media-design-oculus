@@ -73,11 +73,11 @@ When Unity is finished exporting your project, you should see your game inside y
 The problem is that we have not activated the "virtual reality" mode in our game. Therefore, Oculus considers that Unity sent us a traditional game that needs to be played on a flatscreen TV. So it builds a flatscreen TV for you inside your headset. Maybe watching flatscreen televisions is just training for our ~~future~~ present dystopic hellscape, but it's probably not what you wanted.
 
 ### XR Plugin
-We need to activate the special "virtual reality mode" inside your Unity project. Open the menu `Edit` > `Project Settings`, find the `XR Plugin Management` section and select `Install XR Plugin Management`.
+We need to activate the special "virtual reality mode" inside your Unity project. Open the menu `Edit` > `Project Settings`, find the (highlight:blue text:`XR Plugin Management`) section and select (highlight:orange text:`XR Plugin Management`).
 
 ![Unity Settings Install XR Plugin](unity-settings-xr-plugin.png)
 
-Once the plugin has been installed, select the `Android` (cf. little robot icon) tab inside this tool and activate the `Oculus` option.
+Once the plugin has been installed, select the (highlight:green text:`Android`) (cf. little robot icon) tab inside this tool and activate the (highlight:sky text:`Oculus`) option.
 
 ![Unity Settings Oculus](unity-settings-android-oculus.png)
 
@@ -86,7 +86,7 @@ If you re-build and run your application in your headset, you should now be imme
 
 ![Unity Convert Camera to XR Rig](unity-convert-to-xr-rig.png)
 
-To *convert* our classical game camera to vr-headset compatible "rig", select the `+` button, choose `XR` > `Convert Main Camera to XR Rig`.
+To *convert* our classical game camera to VR-headset "rig", select the (highlight:fuchsia text:`+`) button, choose (highlight:red text:`XR`) > (highlight:red text:`Convert Main Camera to XR Rig`).
 
 *Now, finally*, you can build your application again and run it on your device. You should now see your lovely Red 3D Cube floating in immersive virtual reality.
 
