@@ -87,6 +87,8 @@ We can now *convert* the default one-eyed-cyclops `Main` camera to a binocular V
 
 ![Unity Convert Camera to XR Rig](unity-convert-to-xr-rig.png)
 
+You can now upload your project to your VR headset and interact with the cube using the center of your gaze.
+
 If you converted your `Camera` to an (highlight:red text:`XR Rig`) starting from the previous steps of this tutorial, all of your scripts on your camera should have remained intact. If this is the case, press the (highlight:brown text:`Play`) button: you should still be able to simulate moving around your headset using the mouse or trackpad of your computer.
 
 ![Unity XR Rig with scripts](unity-xr-rig-with-scripts.png)

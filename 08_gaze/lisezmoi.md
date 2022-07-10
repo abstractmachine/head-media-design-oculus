@@ -89,6 +89,8 @@ Nous pouvons maintenant *convertir* la caméra "principale" du cyclope borgne pa
 
 ![Unity Convert Camera to XR Rig](unity-convert-to-xr-rig.png)
 
+Vous pouvez maintenant télécharger votre projet sur votre casque VR et interagir avec le cube en le fixant avec le centre de votre regard.
+
 Si vous avez converti votre `Camera` en un (highlight:red text:`XR Rig`) à partir des étapes précédentes de ce didacticiel, tous vos scripts sur votre caméra devraient être restés intacts. Si c'est le cas, appuyez sur le bouton (highlight:brown text:`Play`) : vous devriez toujours pouvoir simuler le déplacement autour de votre casque à l'aide de la souris ou du trackpad de votre ordinateur.
 
 ![Unity XR Rig with scripts](unity-xr-rig-with-scripts.png)
