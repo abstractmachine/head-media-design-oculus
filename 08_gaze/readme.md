@@ -91,4 +91,4 @@ If you converted your `Camera` to an (highlight:red text:`XR Rig`) starting from
 
 ![Unity XR Rig with scripts](unity-xr-rig-with-scripts.png)
 
-If for whatever reason you started from scratch with an empty scene, open up the new (highlight:cyan text:`Camera`) and find its (highlight:cyan text:`XR Rig`), then drag the (highlight:pink text:`GazeRaycaster`) and (highlight:purple text:`MouseLookAround`) scripts onto your new (highlight:cyan text:`Camera`).
+If for whatever reason you started from scratch with an empty scene, open up the new (highlight:cyan text:`Camera`) and find its (highlight:cyan text:`XR Rig`), then just drag the (highlight:pink text:`GazeRaycaster`) and (highlight:purple text:`MouseLookAround`) scripts onto your new (highlight:cyan text:`Camera`).
