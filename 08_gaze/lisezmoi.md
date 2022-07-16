@@ -14,16 +14,28 @@ Au programme [Media Design Master](https://www.hesge.ch/head/en/programs-researc
 Pour un cours récent que nous avons enseigné ensemble, Pierre Rossel a adapté cette approche de détection du regard en une série de scripts relativement simples et construits avec des scripts visuels : [VS Gaze Detector](https://github.com/prossel/VS-gaze-detector). Nous allons maintenant utiliser ces scripts pour ajouter des interactions de regard à Unity.
 
 ### New Project
+<<<<<<< HEAD
 Dans mon Unity Hub, j'ai créé un nouveau projet 3D nommé (orange: Gaze) mais vous pouvez appeler le vôtre comme vous voulez. J'utilise (cyan: Unity 2021.3); si vous utilisez une autre version de Unity, ces instructions devraient toujours fonctionner correctement tant que vous utilisez au moins `Unity 2021.1` ou une version ultérieure.
+=======
+Dans mon Unity Hub, j'ai créé un nouveau projet 3D nommé (highlight:orange text:`Gaze`) mais vous pouvez appeler le vôtre comme vous voulez. J'utilise (cyan: Unity 2021.3); si vous utilisez une autre version de Unity, ces instructions devraient toujours fonctionner correctement tant que vous utilisez au moins `Unity 2021.1` ou une version ultérieure.
+>>>>>>> 36299d3
 
 ![Unity Hub - New Project](hub-new-project-gaze.png)
 
 ### Nouveaux matériaux
+<<<<<<< HEAD
 Tout comme pour le tutoriel précédent, j'ai créé un nouveau dossier (purple:`Materials`) et ajouté ((red:  + )) trois nouveaux (yellow: matériaux) à ce dossier. J'ai donné à mes matériaux trois (green: couleurs) distinctes et les ai nommées (yellow: Hot), (yellow: Cold) et (yellow: Default). J'ai également créé un dossier vide nommé (fuchsia: Scripts).
 
 ![Nouveaux matériaux](new-materials-hot-cold-default.jpg)
 
 Créons un nouveau ((red:  + )) (sky: Cube) et (blue: appliquons) le matériau (yellow: Default).
+=======
+Tout comme pour le tutoriel précédent, j'ai créé un nouveau dossier (highlight: purple text:`Materials`) et ajouté ((highlight:red text:` + `)) trois nouveaux (yellow: matériaux) à ce dossier. J'ai donné à mes matériaux trois (highlight:green text:`couleurs`) distinctes et les ai nommées (yellow: Hot), (yellow: Cold) et (yellow: Default). J'ai également créé un dossier vide nommé (highlight:fuchsia text:`Scripts`).
+
+![Nouveaux matériaux](new-materials-hot-cold-default.jpg)
+
+Créons un nouveau ((highlight:red text:` + `)) (highlight:sky text:`Cube`) et (highlight:blue text:`appliquons`) le matériau (yellow: Default).
+>>>>>>> 36299d3
 
 ![Cube Default Material](new-cube-default-material.png)
 
@@ -67,10 +79,17 @@ Voici une capture d'écran d'un nouveau (blueish: Script Graph) que j'ai ajouté
 ![Cube New Script Graph](gaze-cube-script-graph.png)
 
 Nous avons créé quatre nœuds dans ce graphique, en utilisant nos nouveaux événements que nous avons importés avec le package `VsGazeDetector` ci-dessus.
+<<<<<<< HEAD
 - L'événement (mud: OnGazeEnter) est déclenché chaque fois que le `Ray` entre en collision avec notre (pink: Cube). Chaque fois que cette interaction se produit, le (blueish: Script Graph) définit le `Material` du Cube sur le matériau `Cold` que nous avons créé plus tôt dans ce didacticiel. Comme vous pouvez voir dans l'illustration ci-dessous, cette interaction rend le cube bleu.
 - L'événement (brown: OnGazeExit) est déclenché chaque fois que ce `Ray` sort en collision avec notre (pink: Cube). Cela change le `Material` de l'objet à `Default`.
 - L'événement (yellow: OnGazeStay) est déclenché de manière répétitive tant que nous continuons à interagir avec notre (pink: Cube). Ce concept de `Stay` (*rester*) signifie "tant que ce rayon reste en interaction avec cet objet". Cette action `Stay` déclenche l'action `Rotation` et se répète constamment, pour chaque « *frame* », c'est-à-dire environ soixante fois par seconde tant que nous continuons à regarder l'objet.
 - L'événement (sky: OnGazeTimer) est très pratique et se déclenche chaque fois que nous restons à regarder cet objet plus longtemps qu'un nombre défini de secondes. Ici, nous avons défini cette valeur (sky: Duration) sur (sky: 2) secondes. Lorsque cette action se déclenche, nous remplaçons le `Material` du (pink: Cube) par la couleur `Hot` créée plus tôt dans ce didacticiel. Dans l'illustration ci-dessous, le cube devient rouge chaque fois que la joueuse le regarde pendant plus de `2` secondes. Comme nous n'avons pas besoin de changer constamment cette couleur, nous avons laissé son option `Repeat` décochée.
+=======
+- L'événement (highlight:mud text:`OnGazeEnter`) est déclenché chaque fois que le `Ray` entre en collision avec notre (highlight:pink text:`Cube`). Chaque fois que cette interaction se produit, le (highlight:blueish text:`Script Graph`) définit le `Material` du Cube sur le matériau `Cold` que nous avons créé plus tôt dans ce didacticiel. Comme vous pouvez voir dans l'illustration ci-dessous, cette interaction rend le cube bleu.
+- L'événement (highlight:brown text:`OnGazeExit`) est déclenché chaque fois que ce `Ray` sort en collision avec notre (highlight:pink text:`Cube`). Cela change le `Material` de l'objet à `Default`.
+- L'événement (yellow: OnGazeStay) est déclenché de manière répétitive tant que nous continuons à interagir avec notre (highlight:pink text:`Cube`). Ce concept de `Stay` (*rester*) signifie "tant que ce rayon reste en interaction avec cet objet". Cette action `Stay` déclenche l'action `Rotation` et se répète constamment, pour chaque « *frame* », c'est-à-dire environ soixante fois par seconde tant que nous continuons à regarder l'objet.
+- L'événement (highlight:sky text:`OnGazeTimer`) est très pratique et se déclenche chaque fois que nous restons à regarder cet objet plus longtemps qu'un nombre défini de secondes. Ici, nous avons défini cette valeur (highlight:sky text:`Duration`) sur (highlight:sky text:`2`) secondes. Lorsque cette action se déclenche, nous remplaçons le `Material` du (highlight:pink text:`Cube`) par la couleur `Hot` créée plus tôt dans ce didacticiel. Dans l'illustration ci-dessous, le cube devient rouge chaque fois que la joueuse le regarde pendant plus de `2` secondes. Comme nous n'avons pas besoin de changer constamment cette couleur, nous avons laissé son option `Repeat` décochée.
+>>>>>>> 36299d3
 
 ![Gaze Raycast interactions with Cube](gaze-raycast-change-material.gif)
 
@@ -95,4 +114,8 @@ Si vous avez converti votre `Camera` en un (red: XR Rig) à partir des étapes p
 
 ![Unity XR Rig with scripts](unity-xr-rig-with-scripts.png)
 
+<<<<<<< HEAD
 Si, pour une raison quelconque, vous avez commencé à zéro avec une scène vide, ouvrez la nouvelle (cyan: Camera) et chercher son (cyan: XR Rig), puis faites glisser les scripts (pink: GazeRaycaster) et (purple: MouseLookAround) dans l'`Inspector` de cette (cyan: Camera).
+=======
+Si, pour une raison quelconque, vous avez commencé à zéro avec une scène vide, ouvrez la nouvelle (cyan: Camera) et chercher son (cyan: XR Rig), puis faites glisser les scripts (highlight:pink text:`GazeRaycaster`) et (highlight:purple text:`MouseLookAround`) dans l'`Inspector` de cette (cyan: Camera).
+>>>>>>> 36299d3
