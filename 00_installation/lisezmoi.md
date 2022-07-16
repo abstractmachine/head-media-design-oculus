@@ -45,7 +45,7 @@ D'après notre expérience, nous n'avons pas trouvé ce processus aussi facile q
 <<<<<<< HEAD
 La partie délicate de ce processus est l'application. Vous devez télécharger une application iOS/Android sur votre téléphone (cf. oculus.com/setup) afin de placer votre casque en mode développeur ((blue: developer mode)). Dans l'application, vous trouverez ce bouton (blue: developer mode) dans (orange: Menu) > (fuchsia: Devices) > (yellow: My Quest #) > (green: Connect) > (red: Developer Mode). Voici quelques captures d'écran avec (espérons-le) les boutons pertinents pour vous aider :
 =======
-La partie délicate de ce processus est l'application. Vous devez télécharger une application iOS/Android sur votre téléphone (cf. oculus.com/setup) afin de placer votre casque en mode développeur ((highlight:blue text:`developer mode`)). Dans l'application, vous trouverez ce bouton (highlight:blue text:`developer mode`) dans (highlight:orange text:`Menu`) > (highlight:fuchsia text:`Devices`) > (yellow: My Quest #) > (highlight:green text:`Connect`) > (highlight:red text:`Developer Mode`). Voici quelques captures d'écran avec (espérons-le) les boutons pertinents pour vous aider :
+La partie délicate de ce processus est l'application. Vous devez télécharger une application iOS/Android sur votre téléphone (cf. oculus.com/setup) afin de placer votre casque en mode développeur ((blue: developer mode)). Dans l'application, vous trouverez ce bouton (blue: developer mode) dans (orange: Menu) > (fuchsia: Devices) > (yellow: My Quest #) > (green: Connect) > (red: Developer Mode). Voici quelques captures d'écran avec (espérons-le) les boutons pertinents pour vous aider :
 >>>>>>> 36299d3
 
 ![Oculus App Developer Mode](oculus-app-developer-mode-full.jpg)

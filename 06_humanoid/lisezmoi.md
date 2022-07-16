@@ -67,7 +67,7 @@ Nous utiliserons Mixamo entièrement via leur site Web. Pour l'instant, le seul 
 <<<<<<< HEAD
 Si vous avez déjà un compte Adobe, commencez par (yellow: Login) sur le site Web de Mixamo avec votre compte, ou (fuchsia: Sign Up) pour un nouveau compte. L'utilisation du site Mixamo est (pour l'instant) gratuite.
 =======
-Si vous avez déjà un compte Adobe, commencez par (yellow: Login) sur le site Web de Mixamo avec votre compte, ou (highlight:fuchsia text:`Sign Up`) pour un nouveau compte. L'utilisation du site Mixamo est (pour l'instant) gratuite.
+Si vous avez déjà un compte Adobe, commencez par (yellow: Login) sur le site Web de Mixamo avec votre compte, ou (fuchsia: Sign Up) pour un nouveau compte. L'utilisation du site Mixamo est (pour l'instant) gratuite.
 >>>>>>> 36299d3
 
 (image:mixamo-sign-in.jpg)
@@ -97,7 +97,7 @@ Ces « os » sont les positions réelles d'un véritable humain se déplaçant
 <<<<<<< HEAD
 Une fois que nous avons appliqué un (red: animation) à notre (orange: character), nous sommes maintenant prêts à (yellow: download) les deux et à les importer comme une seule entité dans l'Unité. Dans la fenêtre des paramètres de téléchargement, vous devrez sélectionner (yellow: FBX for Unity) comme format. Vous pouvez laisser les autres paramètres seuls (`avec habillage`, `30 images par seconde`, `pas de réduction d'images clés`), puis (brown: télécharger) le fichier.
 =======
-Une fois que nous avons appliqué un (highlight:red text:`animation`) à notre (highlight:orange text:`character`), nous sommes maintenant prêts à (yellow: download) les deux et à les importer comme une seule entité dans l'Unité. Dans la fenêtre des paramètres de téléchargement, vous devrez sélectionner (yellow: FBX for Unity) comme format. Vous pouvez laisser les autres paramètres seuls (`avec habillage`, `30 images par seconde`, `pas de réduction d'images clés`), puis (highlight:brown text:`télécharger`) le fichier.
+Une fois que nous avons appliqué un (red: animation) à notre (orange: character), nous sommes maintenant prêts à (yellow: download) les deux et à les importer comme une seule entité dans l'Unité. Dans la fenêtre des paramètres de téléchargement, vous devrez sélectionner (yellow: FBX for Unity) comme format. Vous pouvez laisser les autres paramètres seuls (`avec habillage`, `30 images par seconde`, `pas de réduction d'images clés`), puis (brown: télécharger) le fichier.
 >>>>>>> 36299d3
 
 (image:mixamo-download-settings.png)

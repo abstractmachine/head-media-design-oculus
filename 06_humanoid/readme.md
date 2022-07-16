@@ -67,7 +67,7 @@ We will use Mixamo entirely through their website. For now, the only browser tha
 <<<<<<< HEAD
 If you already have an Adobe account, (yellow: Log In) in to the Mixamo website with your account, or (fuchsia: Sign Up) for a new account. Use of the Mixamo website is (for now) free.
 =======
-If you already have an Adobe account, (yellow: Log In) in to the Mixamo website with your account, or (highlight:fuchsia text:`Sign Up`) for a new account. Use of the Mixamo website is (for now) free.
+If you already have an Adobe account, (yellow: Log In) in to the Mixamo website with your account, or (fuchsia: Sign Up) for a new account. Use of the Mixamo website is (for now) free.
 >>>>>>> 36299d3
 
 (image:mixamo-sign-in.jpg)
@@ -97,7 +97,7 @@ These `bones` are the actual positions of a real human moving in physical space,
 <<<<<<< HEAD
 Once we have applied an (red: animation) to our (orange: character) we are now ready to (yellow: download) both and import them as a single entity into Unity. In the download settings window, you will need to select (fuchsia: FBX for Unity) as your format. You can leave the other settings alone (`with skin`, `30 frames per second`, `no keyframe reduction`), and then (brown: download) the file.
 =======
-Once we have applied an (highlight:red text:`animation`) to our (highlight:orange text:`character`) we are now ready to (yellow: download) both and import them as a single entity into Unity. In the download settings window, you will need to select (highlight:fuchsia text:`FBX for Unity`) as your format. You can leave the other settings alone (`with skin`, `30 frames per second`, `no keyframe reduction`), and then (highlight:brown text:`download`) the file.
+Once we have applied an (red: animation) to our (orange: character) we are now ready to (yellow: download) both and import them as a single entity into Unity. In the download settings window, you will need to select (fuchsia: FBX for Unity) as your format. You can leave the other settings alone (`with skin`, `30 frames per second`, `no keyframe reduction`), and then (brown: download) the file.
 >>>>>>> 36299d3
 
 (image:mixamo-download-settings.png)
