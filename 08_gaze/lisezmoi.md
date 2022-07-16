@@ -14,28 +14,16 @@ Au programme [Media Design Master](https://www.hesge.ch/head/en/programs-researc
 Pour un cours récent que nous avons enseigné ensemble, Pierre Rossel a adapté cette approche de détection du regard en une série de scripts relativement simples et construits avec des scripts visuels : [VS Gaze Detector](https://github.com/prossel/VS-gaze-detector). Nous allons maintenant utiliser ces scripts pour ajouter des interactions de regard à Unity.
 
 ### New Project
-<<<<<<< HEAD
 Dans mon Unity Hub, j'ai créé un nouveau projet 3D nommé (orange: Gaze) mais vous pouvez appeler le vôtre comme vous voulez. J'utilise (cyan: Unity 2021.3); si vous utilisez une autre version de Unity, ces instructions devraient toujours fonctionner correctement tant que vous utilisez au moins `Unity 2021.1` ou une version ultérieure.
-=======
-Dans mon Unity Hub, j'ai créé un nouveau projet 3D nommé (orange: Gaze) mais vous pouvez appeler le vôtre comme vous voulez. J'utilise (cyan: Unity 2021.3); si vous utilisez une autre version de Unity, ces instructions devraient toujours fonctionner correctement tant que vous utilisez au moins `Unity 2021.1` ou une version ultérieure.
->>>>>>> 36299d3
 
 ![Unity Hub - New Project](hub-new-project-gaze.png)
 
 ### Nouveaux matériaux
-<<<<<<< HEAD
 Tout comme pour le tutoriel précédent, j'ai créé un nouveau dossier (purple:`Materials`) et ajouté ((red:  + )) trois nouveaux (yellow: matériaux) à ce dossier. J'ai donné à mes matériaux trois (green: couleurs) distinctes et les ai nommées (yellow: Hot), (yellow: Cold) et (yellow: Default). J'ai également créé un dossier vide nommé (fuchsia: Scripts).
 
 ![Nouveaux matériaux](new-materials-hot-cold-default.jpg)
 
 Créons un nouveau ((red:  + )) (sky: Cube) et (blue: appliquons) le matériau (yellow: Default).
-=======
-Tout comme pour le tutoriel précédent, j'ai créé un nouveau dossier (highlight: purple text:`Materials`) et ajouté ((red:  + )) trois nouveaux (yellow: matériaux) à ce dossier. J'ai donné à mes matériaux trois (green: couleurs) distinctes et les ai nommées (yellow: Hot), (yellow: Cold) et (yellow: Default). J'ai également créé un dossier vide nommé (fuchsia: Scripts).
-
-![Nouveaux matériaux](new-materials-hot-cold-default.jpg)
-
-Créons un nouveau ((red:  + )) (sky: Cube) et (blue: appliquons) le matériau (yellow: Default).
->>>>>>> 36299d3
 
 ![Cube Default Material](new-cube-default-material.png)
 
