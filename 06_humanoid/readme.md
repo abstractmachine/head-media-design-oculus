@@ -64,7 +64,7 @@ Today, most people just use Mixamo as a free downloadable library of characters 
 We will use Mixamo entirely through their website. For now, the only browser that seems to work with it is [Google Chrome](https://www.google.com/chrome/). Yes yes, we know: Chrome is a beast that will suck your battery dry. Nevertheless, you probably will have to use Chrome.
 
 ### Login
-If you already have an Adobe account, (highlight:yellow text:`Log In`) in to the Mixamo website with your account, or (highlight:fuchsia text:`Sign Up`) for a new account. Use of the Mixamo website is (for now) free.
+If you already have an Adobe account, (yellow: Log In) in to the Mixamo website with your account, or (highlight:fuchsia text:`Sign Up`) for a new account. Use of the Mixamo website is (for now) free.
 
 (image:mixamo-sign-in.jpg)
 
@@ -90,7 +90,7 @@ If you want to better understand how these 3d humanoid animations work, select t
 These `bones` are the actual positions of a real human moving in physical space, recorded by a motion capture system over time, frame by frame, and now playing back in Mixamo. This recording from a motion capture system is nothing else than a record of the `x`/`y`/`z` positions and rotations of these bones over time. These animations do not even need to record any physical attributes other than these `x`/`y`/`z` positions and rotations. The final 3D animation will require injecting these invisible bones into a character's 3D `mesh` and allowing these bones to move the vertices of the model as if it were pliable skin on a human body.
 
 ### Download
-Once we have applied an (highlight:red text:`animation`) to our (highlight:orange text:`character`) we are now ready to (highlight:yellow text:`download`) both and import them as a single entity into Unity. In the download settings window, you will need to select (highlight:fuchsia text:`FBX for Unity`) as your format. You can leave the other settings alone (`with skin`, `30 frames per second`, `no keyframe reduction`), and then (highlight:brown text:`download`) the file.
+Once we have applied an (highlight:red text:`animation`) to our (highlight:orange text:`character`) we are now ready to (yellow: download) both and import them as a single entity into Unity. In the download settings window, you will need to select (highlight:fuchsia text:`FBX for Unity`) as your format. You can leave the other settings alone (`with skin`, `30 frames per second`, `no keyframe reduction`), and then (highlight:brown text:`download`) the file.
 
 (image:mixamo-download-settings.png)
 

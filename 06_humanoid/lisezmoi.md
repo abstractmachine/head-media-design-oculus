@@ -64,7 +64,7 @@ Aujourd'hui, la plupart des gens utilisent Mixamo comme une bibliothèque de per
 Nous utiliserons Mixamo entièrement via leur site Web. Pour l'instant, le seul navigateur qui semble fonctionner avec est [Google Chrome](https://www.google.com/chrome/). Oui oui, nous le savons : Chrome est une bête qui aspirera votre batterie à sec. Néanmoins, vous devrez probablement utiliser Chrome.
 
 ### Login
-Si vous avez déjà un compte Adobe, commencez par (highlight:yellow text:`Login`) sur le site Web de Mixamo avec votre compte, ou (highlight:fuchsia text:`Sign Up`) pour un nouveau compte. L'utilisation du site Mixamo est (pour l'instant) gratuite.
+Si vous avez déjà un compte Adobe, commencez par (yellow: Login) sur le site Web de Mixamo avec votre compte, ou (highlight:fuchsia text:`Sign Up`) pour un nouveau compte. L'utilisation du site Mixamo est (pour l'instant) gratuite.
 
 (image:mixamo-sign-in.jpg)
 
@@ -90,7 +90,7 @@ Si vous voulez mieux comprendre le fonctionnement de ces animations humanoïdes 
 Ces « os » sont les positions réelles d'un véritable humain se déplaçant dans l'espace physique, enregistrées par un système de capture de mouvement au fil du temps, image par image, et maintenant lues dans Mixamo. Cet enregistrement à partir d'un système de capture de mouvement n'est rien d'autre qu'un enregistrement des positions et des rotations `x`/`y`/`z` de ces os au fil du temps. Ces animations n'ont même pas besoin d'enregistrer d'attributs physiques autres que ces positions et rotations `x`/`y`/`z`. L'animation 3D finale nécessitera d'injecter ces os invisibles dans le « maillage » 3D d'un personnage et de permettre à ces os de déplacer les sommets du modèle comme s'il s'agissait d'une peau souple sur un corps humain.
 
 ### Télécharger
-Une fois que nous avons appliqué un (highlight:red text:`animation`) à notre (highlight:orange text:`character`), nous sommes maintenant prêts à (highlight:yellow text:`download`) les deux et à les importer comme une seule entité dans l'Unité. Dans la fenêtre des paramètres de téléchargement, vous devrez sélectionner (highlight:yellow text:`FBX for Unity`) comme format. Vous pouvez laisser les autres paramètres seuls (`avec habillage`, `30 images par seconde`, `pas de réduction d'images clés`), puis (highlight:brown text:`télécharger`) le fichier.
+Une fois que nous avons appliqué un (highlight:red text:`animation`) à notre (highlight:orange text:`character`), nous sommes maintenant prêts à (yellow: download) les deux et à les importer comme une seule entité dans l'Unité. Dans la fenêtre des paramètres de téléchargement, vous devrez sélectionner (yellow: FBX for Unity) comme format. Vous pouvez laisser les autres paramètres seuls (`avec habillage`, `30 images par seconde`, `pas de réduction d'images clés`), puis (highlight:brown text:`télécharger`) le fichier.
 
 (image:mixamo-download-settings.png)
 

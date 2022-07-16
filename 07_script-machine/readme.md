@@ -56,7 +56,7 @@ Ok. Let's make a `Visual Script`. We'll start with a new (highlight:fuchsia text
 
 ![New Core 3D Project](scriptmachine-new-3d-project.jpg)
 
-Now create a standard Cube in your scene via `Hierarchy` → (highlight:purple text:` + `) → `3D Object` → `Cube`. Note that I've rotated it (highlight:yellow text:`45°`) on the (highlight:yellow text:`X`) and (highlight:yellow text:`Y`) axes. You can't see it here, but I have also brought the main (highlight:brown text:`Camera`) closer on the `Z` axis by changing its `Z` value to `-3`.
+Now create a standard Cube in your scene via `Hierarchy` → (highlight:purple text:` + `) → `3D Object` → `Cube`. Note that I've rotated it (yellow: 45°) on the (yellow: X) and (yellow: Y) axes. You can't see it here, but I have also brought the main (highlight:brown text:`Camera`) closer on the `Z` axis by changing its `Z` value to `-3`.
 
 ![New Cube](new-cube-add-component.jpg)
 
@@ -93,7 +93,7 @@ Let's change materials to make this interaction visible.
 
 Create a new folder named (highlight:purple text:`Materials`) inside your `Project` folder. Note the capital `M` and the plural `s` and the end of this folder. This is a Unity naming convention that will help you keep your `Project` folder organised.
 
-Inside your (highlight:purple text:`Materials`) folder, (highlight:red text:`create`) three new `Materials` with three different colors. I've called my colors (highlight:yellow text:`Hot`), (highlight:yellow text:`Cold`), and (highlight:yellow text:`Default`) but you can call them whatever you want and give them (highlight:green text:`whatever color`) you want. The first two colors will be used whenever we click *down* or *up* on the `Cube` with our mouse. We'll use the third color ((highlight:yellow text:`Default`)) later at the end of this tutorial.
+Inside your (highlight:purple text:`Materials`) folder, (highlight:red text:`create`) three new `Materials` with three different colors. I've called my colors (yellow: Hot), (yellow: Cold), and (yellow: Default) but you can call them whatever you want and give them (highlight:green text:`whatever color`) you want. The first two colors will be used whenever we click *down* or *up* on the `Cube` with our mouse. We'll use the third color ((yellow: Default)) later at the end of this tutorial.
 
 ![New Materials](new-materials-hot-cold-default.jpg)
 

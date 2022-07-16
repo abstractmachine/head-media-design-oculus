@@ -56,7 +56,7 @@ Allons-y. Créons un `Visual Script`. Nous allons commencer avec un nouveau proj
 
 ![New Core 3D Project](scriptmachine-new-3d-project.jpg)
 
-Créez maintenant un cube standard dans votre scène via `Hiérarchie` → (highlight:purple text:` + `) → `Objet 3D` → `Cube`. Notez que je l'ai fait pivoter (highlight:yellow text:`45°`) sur les axes (highlight:yellow text:`X`) et (highlight:yellow text:`Y`). Vous ne pouvez pas le voir ici, mais j'ai également rapproché le principal (highlight:brown text:`Camera`) sur l'axe `Z` en changeant sa valeur `Z` en `-3`.
+Créez maintenant un cube standard dans votre scène via `Hiérarchie` → (highlight:purple text:` + `) → `Objet 3D` → `Cube`. Notez que je l'ai fait pivoter (yellow: 45°) sur les axes (yellow: X) et (yellow: Y). Vous ne pouvez pas le voir ici, mais j'ai également rapproché le principal (highlight:brown text:`Camera`) sur l'axe `Z` en changeant sa valeur `Z` en `-3`.
 
 ![New Cube](new-cube-add-component.jpg)
 
@@ -93,7 +93,7 @@ Changeons de matériaux pour rendre visible cette interaction.
 
 Créez un nouveau dossier nommé (highlight:purple text:`Materials`) dans votre dossier "Projet". Notez le "M" majuscule et le "s" pluriel ainsi que la fin de ce dossier. Il s'agit d'une convention de dénomination Unity qui vous aidera à organiser votre dossier "Project".
 
-Dans votre dossier (highlight:purple text:`Materials`), (highlight:red text:`créez`) trois nouveaux `Materials` avec trois couleurs différentes. J'ai appelé mes couleurs (highlight:yellow text:`Hot`), (highlight:yellow text:`Cold`), et (highlight:yellow text:`Default`) mais vous pouvez les appeler comme vous voulez et leur donner (highlight:green text:`les coleurs`) que vous voulez. Les deux premières couleurs seront utilisées chaque fois que nous cliquons *vers le bas* ou *vers le haut* sur le `Cube` avec notre souris. La troisième couleur ((highlight:yellow text:`Default`)) sera utilisée plus tard dans ce tutoriel.
+Dans votre dossier (highlight:purple text:`Materials`), (highlight:red text:`créez`) trois nouveaux `Materials` avec trois couleurs différentes. J'ai appelé mes couleurs (yellow: Hot), (yellow: Cold), et (yellow: Default) mais vous pouvez les appeler comme vous voulez et leur donner (highlight:green text:`les coleurs`) que vous voulez. Les deux premières couleurs seront utilisées chaque fois que nous cliquons *vers le bas* ou *vers le haut* sur le `Cube` avec notre souris. La troisième couleur ((yellow: Default)) sera utilisée plus tard dans ce tutoriel.
 
 ![New Materials](new-materials-hot-cold-default.jpg)
 

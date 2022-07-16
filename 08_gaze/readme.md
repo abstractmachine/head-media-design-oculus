@@ -14,16 +14,16 @@ At the [Media Design Master](https://www.hesge.ch/head/en/programs-research/mast
 For a recent class we taught together, Pierre Rossel adapted this gaze-detection approach into a simple series of scripts built with visual scripting: [VS Gaze Detector](https://github.com/prossel/VS-gaze-detector). We will now use these scripts to add gaze interactions to Unity.
 
 ### New Project
-In my Unity Hub, I've created a new 3D project named (highlight:orange text:`Gaze`) but you can call yours whatever you want. I'm using (highlight:cyan text:`Unity 2021.3`); if you are using another version of Unity, these instructions should still work fine as long as you are using at least `Unity 2021.1` or later.
+In my Unity Hub, I've created a new 3D project named (highlight:orange text:`Gaze`) but you can call yours whatever you want. I'm using (cyan: Unity 2021.3); if you are using another version of Unity, these instructions should still work fine as long as you are using at least `Unity 2021.1` or later.
 
 ![Unity Hub - New Project](hub-new-project-gaze.png)
 
 ### New Materials
-Similar to the last tutorial, I've created a new (highlight:purple text:`Materials`) folder, and added ((highlight:red text:` + `)) three new (highlight:yellow text:`Materials`) to this folder. I have given my materials three distinct (highlight:green text:`colors`) and named them (highlight:yellow text:`Hot`), (highlight:yellow text:`Cold`), and (highlight:yellow text:`Default`). I have also created an empty (highlight:fuchsia text:`Scripts`) folder.
+Similar to the last tutorial, I've created a new (highlight:purple text:`Materials`) folder, and added ((highlight:red text:` + `)) three new (yellow: Materials) to this folder. I have given my materials three distinct (highlight:green text:`colors`) and named them (yellow: Hot), (yellow: Cold), and (yellow: Default). I have also created an empty (highlight:fuchsia text:`Scripts`) folder.
 
 ![New Materials](new-materials-hot-cold-default.jpg)
 
-Let's create a new ((highlight:red text:` + `)) (highlight:sky text:`Cube`) and (highlight:blue text:`apply`) the (highlight:yellow text:`Default`) material to it.
+Let's create a new ((highlight:red text:` + `)) (highlight:sky text:`Cube`) and (highlight:blue text:`apply`) the (yellow: Default) material to it.
 
 ![Default Cube](new-cube-default-material.png)
 
@@ -67,7 +67,7 @@ Here is a screenshot of a new (highlight:blueish text:`Script Graph`) that I add
 We have created four nodes in this graph, using our new events that we imported with the `VsGazeDetector` package above.
 - The (highlight:mud text:`OnGazeEnter`) event is fired whenever the `Ray` enters into collision with our (highlight:pink text:`Cube`). Whenever this interaction happens, the (highlight:blueish text:`Script Graph`) sets the Cube's `Material` to the `Cold` material which we created earlier in this tutorial. As you can see in the illustration below, this interaction turns the cube blue. 
 - The (highlight:brown text:`OnGazeExit`) event is fired whenever this `Ray` exits collision with our (highlight:pink text:`Cube`). This changes the object's `Material` back to `Default`.
-- The (highlight:yellow text:`OnGazeStay`) event is fired repetitively as long as we remain interacting with our (highlight:pink text:`Cube`). This concept of "stay" means "as long as this ray stays interacting with this object". This `Stay` action fires the `Rotation` action and is repeated constantly, for each frame, approximately sixty times per second as long as we continue to gaze at the object.
+- The (yellow: OnGazeStay) event is fired repetitively as long as we remain interacting with our (highlight:pink text:`Cube`). This concept of "stay" means "as long as this ray stays interacting with this object". This `Stay` action fires the `Rotation` action and is repeated constantly, for each frame, approximately sixty times per second as long as we continue to gaze at the object.
 - The (highlight:sky text:`OnGazeTimer`) event is very handy and fires whenever we remain gazing at this object longer than a definable number of seconds. Here we have set this (highlight:sky text:`Delay`) value to (highlight:sky text:`2`) seconds. When this action fires, we change the (highlight:pink text:`Cube`)'s `Material` to the `Hot` color created earlier in this tutorial. In the illustration below, the cube turns red whenever the player stares at it for over `2` seconds. Since we do not need to constantly change this color, we have left its `Repeat` option unchecked.
 
 ![Gaze Raycast interactions with Cube](gaze-raycast-change-material.gif)
@@ -93,4 +93,4 @@ If you converted your `Camera` to an (highlight:red text:`XR Rig`) starting from
 
 ![Unity XR Rig with scripts](unity-xr-rig-with-scripts.png)
 
-If for whatever reason you started from scratch with an empty scene, open up the new (highlight:cyan text:`Camera`) and find its (highlight:cyan text:`XR Rig`), then just drag the (highlight:pink text:`GazeRaycaster`) and (highlight:purple text:`MouseLookAround`) scripts onto your new (highlight:cyan text:`Camera`).
+If for whatever reason you started from scratch with an empty scene, open up the new (cyan: Camera) and find its (cyan: XR Rig), then just drag the (highlight:pink text:`GazeRaycaster`) and (highlight:purple text:`MouseLookAround`) scripts onto your new (cyan: Camera).
