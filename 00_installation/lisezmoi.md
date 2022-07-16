@@ -42,7 +42,7 @@ Dans les documents [Setup Development Environment](https://developer.oculus.com/
 D'après notre expérience, nous n'avons pas trouvé ce processus aussi facile que suggéré ci-dessus.
 
 ### Installer Oculus App
-La partie délicate de ce processus est l'application. Vous devez télécharger une application iOS/Android sur votre téléphone (cf. oculus.com/setup) afin de placer votre casque en mode développeur ((highlight:blue text:`developer mode`)). Dans l'application, vous trouverez ce bouton (highlight:blue text:`developer mode`) dans (highlight:orange text:`Menu`) > (highlight:fuchsia text:`Devices`) > (highlight:yellow text:`My Quest #`) > (highlight:green text:`Connect`) > (highlight:red text:`Developer Mode`). Voici quelques captures d'écran avec (espérons-le) les boutons pertinents pour vous aider :
+La partie délicate de ce processus est l'application. Vous devez télécharger une application iOS/Android sur votre téléphone (cf. oculus.com/setup) afin de placer votre casque en mode développeur ((blue: developer mode)). Dans l'application, vous trouverez ce bouton (blue: developer mode) dans (orange: Menu) > (fuchsia: Devices) > (yellow: My Quest #) > (green: Connect) > (red: Developer Mode). Voici quelques captures d'écran avec (espérons-le) les boutons pertinents pour vous aider :
 
 ![Oculus App Developer Mode](oculus-app-developer-mode-full.jpg)
 
@@ -71,12 +71,12 @@ L'astuce du wifi sophistiqué est de connecter correctement l'Oculus au réseau.
 - Password : AAI password
 
 ### Pairing Code
-Un problème que nous avons rencontré lors du couplage de notre casque Oculus à notre application Oculus a été de trouver le %$*# code d'appariement. Il est placé dans un endroit follement obscur : `Quick Settings` > `Settings` > `System` > `About` > (highlight:yellow text:`Pairing Code: #####`).
+Un problème que nous avons rencontré lors du couplage de notre casque Oculus à notre application Oculus a été de trouver le %$*# code d'appariement. Il est placé dans un endroit follement obscur : `Quick Settings` > `Settings` > `System` > `About` > (yellow: Pairing Code: #####).
 
 ![Oculus Pairing Code](oculus-pairing-code.jpg)
 
 ### Developer Mode
-Ce que vous cherchez, c'est ce bouton bleu en mode développeur (cf. (highlight:blue text:`Developer Mode`) ci-dessous). Si ce bouton est actif, votre application est associée à notre casque et vous devriez être prêt•e à jouer.
+Ce que vous cherchez, c'est ce bouton bleu en mode développeur (cf. (blue: Developer Mode) ci-dessous). Si ce bouton est actif, votre application est associée à notre casque et vous devriez être prêt•e à jouer.
 
 ![Oculus developer mode button](oculus-developer-mode-button.jpg)
 

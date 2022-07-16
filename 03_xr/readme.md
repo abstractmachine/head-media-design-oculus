@@ -6,7 +6,7 @@ We're going to keep this as simple as possible, with the goal of getting a (red)
 (youtube: A1jothqmqHw)
 
 ### New Project
-Open up the Unity Hub on your macOS, Windows, or Linux machine. Go into the `Projects` tab and press the `New project` button. You will see a series of choices. Make sure you are using `Unity 2021.2.##`. Make sure that you are using the `3D Core` template, which configures your Unity project to the standard 3D rendering system which is a good starting point for any virtual reality project. Inside the `Project Settings` section, you can give your project a name, and determine the location where it will be saved. Finally, when you are happy with these settings, click `Create project` to open your project in the Unity editor.
+Open up the Unity Hub on your macOS, Windows, or Linux machine. Go into the `Projects` tab and press the `New project` button. You will see a series of choices. Make sure you are using at least (orange:`Unity 2021.2.##`) or later. These tutorials make use of the new `Visual Scripting` system which was introduced in `Unity 2021.2`. Make sure also that you are using the (green: 3D Core) template, which configures your Unity project to the standard 3D rendering system: this is a good starting point for any virtual reality project. Inside the `Project Settings` section, you can give your project a (cyan: name), and determine the (fuchsia: location) where it will be saved. Finally, when you are happy with these settings, click (yellow: Create project) to open your project in the Unity editor.
 
 ![Unity New Project window](unity-new-project-window.jpg)
 
@@ -15,7 +15,7 @@ Your project should open up with a `SampleScene` in the `Hierarchy`.
 
 ![Unity Empty Project](unity-empty-project.png)
 
-If your project doesn't look like my screenshot, it is because I have configured my editor to use the `Tall` layout by default (cf. Unity Editor).
+If your project doesn't look like my screenshot, it is because I have configured my editor to use the `Tall` layout by default (cf. (tutorial:Unity Editor link:unity-vr/editor).
 
 ### Inifinity Room
 Let's add a floor and a cube to our `Scene`. At the top of the `Hierarchy` tab, you'll find a `+` button; select `+` > `3D Object` > `Plane` to create a flat plane in the middle of the scene.
@@ -73,11 +73,11 @@ When Unity is finished exporting your project, you should see your game inside y
 The problem is that we have not activated the "virtual reality" mode in our game. Therefore, Oculus considers that Unity sent us a traditional game that needs to be played on a flatscreen TV. So it builds a flatscreen TV for you inside your headset. Maybe watching flatscreen televisions is just training for our ~~future~~ present dystopic hellscape, but it's probably not what you wanted.
 
 ### XR Plugin
-We need to activate the special "virtual reality mode" inside your Unity project. Open the menu `Edit` > `Project Settings`, find the (highlight:blue text:`XR Plugin Management`) section and select (highlight:orange text:`XR Plugin Management`).
+We need to activate the special "virtual reality mode" inside your Unity project. Open the menu `Edit` > `Project Settings`, find the (blue: XR Plugin Management) section and select (orange:`XR Plugin Management`).
 
 ![Unity Settings Install XR Plugin](unity-settings-xr-plugin.png)
 
-Once the plugin has been installed, select the (highlight:green text:`Android`) (cf. little robot icon) tab inside this tool and activate the (highlight:sky text:`Oculus`) option.
+Once the plugin has been installed, select the (green: Android) (cf. little robot icon) tab inside this tool and activate the (sky: Oculus) option.
 
 ![Unity Settings Oculus](unity-settings-android-oculus.png)
 
@@ -86,7 +86,7 @@ If you re-build and run your application in your headset, you should now be imme
 
 ![Unity Convert Camera to XR Rig](unity-convert-to-xr-rig.png)
 
-To *convert* our classical game camera to VR-headset "rig", select the (highlight:fuchsia text:`+`) button, choose (highlight:red text:`XR`) > (highlight:red text:`Convert Main Camera to XR Rig`).
+To *convert* our classical game camera to VR-headset "rig", select the (fuchsia: +) button, choose (red: XR) > (red: Convert Main Camera to XR Rig).
 
 *Now, finally*, you can build your application again and run it on your device. You should now see your lovely Red 3D Cube floating in immersive virtual reality.
 

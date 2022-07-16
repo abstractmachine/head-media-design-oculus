@@ -44,7 +44,7 @@ In our experience, we didn’t find this process as easy as suggested above.
 
 
 ### Install Oculus App
-The fiddly bit in this process is the app. You have to download an iOS/Android app to your phone (cf. [oculus.com/setup](https://www.oculus.com/setup/)) in order to place your headset into (highlight:blue text:`Developer mode`). Inside the app you will find this (highlight:blue text:`Developer mode`) button from (highlight:orange text:`Menu`) > (highlight:fuchsia text:`Devices`) > (highlight:yellow text:`My Quest #`) > (highlight:green text:`Connect`) > (highlight:red text:`Developer Mode`). Here are some screenshots with (hopefully) the relevant buttons to help you:
+The fiddly bit in this process is the app. You have to download an iOS/Android app to your phone (cf. [oculus.com/setup](https://www.oculus.com/setup/)) in order to place your headset into (blue: Developer mode). Inside the app you will find this (blue: Developer mode) button from (orange: Menu) > (fuchsia: Devices) > (yellow: My Quest #) > (green: Connect) > (red: Developer Mode). Here are some screenshots with (hopefully) the relevant buttons to help you:
 
 ![Oculus App Developer Mode](oculus-app-developer-mode-full.jpg)
 
@@ -73,12 +73,12 @@ The trick though of fancy wifi is getting the Oculus connected correctly to the 
 - Password : AAI password
 
 ### Pairing Code
-One problem we had when pairing our Oculus headset to our Oculus app was finding the %$*# `pairing code`. It is placed in a crazily obscure spot: `Quick Settings` > `Settings` > `System` > `About` > (highlight:yellow text:`Pairing Code: #####`).
+One problem we had when pairing our Oculus headset to our Oculus app was finding the %$*# `pairing code`. It is placed in a crazily obscure spot: `Quick Settings` > `Settings` > `System` > `About` > (yellow: Pairing Code: #####).
 
 ![Oculus Pairing Code](oculus-pairing-code.jpg)
 
 ### Developer Mode
-The thing you are looking for is this blue button in (highlight:blue text:`Developer mode`) (cf. below). If this button is active, then your app is paired with our headset and you should be good to go.
+The thing you are looking for is this blue button in (blue: Developer mode) (cf. below). If this button is active, then your app is paired with our headset and you should be good to go.
 
 ![Oculus developer mode button](oculus-developer-mode-button.jpg)
 

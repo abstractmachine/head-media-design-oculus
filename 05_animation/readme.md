@@ -29,11 +29,11 @@ Ok, enough animation history. Let's animate a cube.
 
 ![Unity Red Cube](unity-cube.png)
 
-Place a cube in your scene and give it a color to make it easily identifiable. Now let's create an `animation clip` and attach it to this cube. But before we do so, let's create a new (highlight:green text:`Animations`) folder (capital `A`, plural `s` at the end) inside our `Assets` folder in the `Project` window. We will save all our files related to animation in here.
+Place a cube in your scene and give it a color to make it easily identifiable. Now let's create an `animation clip` and attach it to this cube. But before we do so, let's create a new (green: Animations) folder (capital `A`, plural `s` at the end) inside our `Assets` folder in the `Project` window. We will save all our files related to animation in here.
 
 ![Unity Animations Folder](unity-project-animations-folder.png)
 
-Let's now open two new windows and attach them to our Unity editor. Open up both the `Window` > `Animation` > (highlight:orange text:`Animation`) and the `Window` > `Animation` > (highlight:blue text:`Animator`) windows and attach them to our editor.
+Let's now open two new windows and attach them to our Unity editor. Open up both the `Window` > `Animation` > (orange: Animation) and the `Window` > `Animation` > (blue: Animator) windows and attach them to our editor.
 
 ![Unity Animation Windows](unity-animation-windows.png)
 
@@ -41,44 +41,44 @@ This is how I have configured my setup but you can set it up however you like.
 
 ![Unity Docked Animation Windows](unity-docked-animation-windows.png)
 
-As you can see, I have docked my (highlight:blue text:`Animator`) window next to the `Scene` window tab, and (highlight:orange text:`Animation`) next to my `Game` window tab. This configuration allows me to look at the `Scene` while ajusting (highlight:orange text:`Animation`) values, and then observe which (highlight:blue text:`Animator`) sequence is playing when my `Game` is active in that window. Again, these are just preferences, and you can configure it however you like.
+As you can see, I have docked my (blue: Animator) window next to the `Scene` window tab, and (orange: Animation) next to my `Game` window tab. This configuration allows me to look at the `Scene` while ajusting (orange: Animation) values, and then observe which (blue: Animator) sequence is playing when my `Game` is active in that window. Again, these are just preferences, and you can configure it however you like.
 
-As you can see in the above illustration, by selecting the (highlight:purple text:`Cube`) game object in our `Hierarchy`, the Unity editor will explain that it can create an `Animation Clip` and an `Animator` of that clip for you by clicking on one single (highlight:green text:`Create`) button. This is very handy, so go ahead and do that, making sure to save your files in the (highlight:fuchsia text:`Animations`) folder in your `Project`. I have decided to call the name of my animation "(highlight:pink text:`Spin.anim`)".
+As you can see in the above illustration, by selecting the (purple: Cube) game object in our `Hierarchy`, the Unity editor will explain that it can create an `Animation Clip` and an `Animator` of that clip for you by clicking on one single (green: Create) button. This is very handy, so go ahead and do that, making sure to save your files in the (fuchsia: Animations) folder in your `Project`. I have decided to call the name of my animation "(pink: Spin.anim)".
 
 ![Unity Animation Files](unity-animation-files.png)
 
-When you click that button, the Unity editor does a lot of complex things for you to make your life easier. Take a look at all the things it just connected up. Inside your `Assets` folder you should now see two files: one with the name you gave your new (highlight:pink text:`Animation Clip`) and the other the name of the game object you had selected when you pushed the 'Create' button. This second file is the (highlight:blueish text:`Animation Controller`) which will list all the possible animation clips your `Game Object` can play. The clip has also automatically been added to a new game object component that you should now see on your `Cube` game object, entitled (highlight:brown text:`Animator`). Look inside the `Inspector` window and you should see this new relationship. If you keep your `Cube` selected and open the (highlight:cyan text:`Animator`) window, you will also see that Unity has automatically added your new (highlight:pink text:`Spin.anim`) clip to the `Cube.controller` file and has been setup as your default animation that will automatically start playing upon `Entry` into the game. And finally, with your `Cube` still selected you should see that the `Animation` is waiting for you to begin animating the various (highlight:yellow text:`Properties`) of your (highlight:red text:`Spin`) animation.
+When you click that button, the Unity editor does a lot of complex things for you to make your life easier. Take a look at all the things it just connected up. Inside your `Assets` folder you should now see two files: one with the name you gave your new (pink: Animation Clip) and the other the name of the game object you had selected when you pushed the 'Create' button. This second file is the (blueish: Animation Controller) which will list all the possible animation clips your `Game Object` can play. The clip has also automatically been added to a new game object component that you should now see on your `Cube` game object, entitled (brown: Animator). Look inside the `Inspector` window and you should see this new relationship. If you keep your `Cube` selected and open the (cyan: Animator) window, you will also see that Unity has automatically added your new (pink: Spin.anim) clip to the `Cube.controller` file and has been setup as your default animation that will automatically start playing upon `Entry` into the game. And finally, with your `Cube` still selected you should see that the `Animation` is waiting for you to begin animating the various (yellow: Properties) of your (red: Spin) animation.
 
 That's a whole lot of connections and relations all simplified into one single button. Since you are probably beginning with Unity, this means that there are a lot of things that you probably don't understand with all of these windows, files, components and objects. Further in this tutorial, we will attempt to break down the meaning of each of these animations components.
 
 ### Animate Property
-Before we explain all these relationships, let's just animate one of the properties of our cube. Make sure your Cube is selected in the hierarchy, and that the "Spin" animation clip is selected in the `Animation` window's top left corner, just underneath the `Preview` button. Now select which `Property`, or properties, you wish to animate. Here I have decided to animate the cube's (highlight:fuchsia text:`Transform`) > (highlight:fuchsia text:`Rotation`).
+Before we explain all these relationships, let's just animate one of the properties of our cube. Make sure your Cube is selected in the hierarchy, and that the "Spin" animation clip is selected in the `Animation` window's top left corner, just underneath the `Preview` button. Now select which `Property`, or properties, you wish to animate. Here I have decided to animate the cube's (fuchsia: Transform) > (fuchsia: Rotation).
 
 ![Unity Animation Property selector](unity-animation-property-selector.png)
 
 Note that all of the various components inside of your game object can be animated using this `Animation` window.
 
 ### Modify Keyframes
-As soon as we have added a property to animate, the `Animation` window automatically adds a `begin` and an `end` keyframe for each of the possible values we can animate. By clicking the arrows in this window we can the white (highlight:orange text:`Timeline`) cursor to the exact moment in time of each of these keyframes. We can then enter the exact values we wish into this window, modify the game object directly in the `Scene` or through its values in the (highlight:purple text:`Inspector`). 
+As soon as we have added a property to animate, the `Animation` window automatically adds a `begin` and an `end` keyframe for each of the possible values we can animate. By clicking the arrows in this window we can the white (orange: Timeline) cursor to the exact moment in time of each of these keyframes. We can then enter the exact values we wish into this window, modify the game object directly in the `Scene` or through its values in the (purple: Inspector). 
 
 ![Unity Animation Clip Keyframes](unity-animation-keyframe-end.png)
 
-In the above example you can see that I have moved the time cursor to the final keyframe of my (highlight:orange text:`Animation Clip`), and modified the (highlight:green text:`Y`) axis rotation to the value of (highlight:green text:`360`)°. If you rewind the time cursor to the beginning of my clip, the `Y` rotation value began at `0`°, meaning that all of the intermediary frames will be *interpolations* between these two values, depending on where the time cursor is inside of the animation clip. Also note that the lozenge-shaped (highlight:fuchsia text:`Keyframe`) values (and parent values) that I have *changed* at that specific point in time have been colored blue.
+In the above example you can see that I have moved the time cursor to the final keyframe of my (orange: Animation Clip), and modified the (green: Y) axis rotation to the value of (green: 360)°. If you rewind the time cursor to the beginning of my clip, the `Y` rotation value began at `0`°, meaning that all of the intermediary frames will be *interpolations* between these two values, depending on where the time cursor is inside of the animation clip. Also note that the lozenge-shaped (fuchsia: Keyframe) values (and parent values) that I have *changed* at that specific point in time have been colored blue.
 
 ![Unity Animation Spin](unity-animation-spin.gif)
 
 ### Curves
-You can temporarily preview the animation by pressing the triangle `Play` button inside the `Animation` window. This will play your animation in a loop. As you may notice, the animation speeds up and slows down, at each of the keyframe extremities. This is because the (highlight:blue text:`Curves`) of your animation are configured to smooth out the transitions around each keyframe. Let's look for an moment at these curves of our animation.
+You can temporarily preview the animation by pressing the triangle `Play` button inside the `Animation` window. This will play your animation in a loop. As you may notice, the animation speeds up and slows down, at each of the keyframe extremities. This is because the (blue: Curves) of your animation are configured to smooth out the transitions around each keyframe. Let's look for an moment at these curves of our animation.
 
-> *Pro-tip: if you don't see the entire curve of your animation, try expanding the (highlight:purple text:`vertical scrollbar`) to fill the entire window. Each extremity of this bar can be stretched and shrunk and allows you to focus in on various parts of your curves.*
+> *Pro-tip: if you don't see the entire curve of your animation, try expanding the (purple: vertical scrollbar) to fill the entire window. Each extremity of this bar can be stretched and shrunk and allows you to focus in on various parts of your curves.*
 
 ![Unity Animation Curves](unity-animation-curves.png)
 
-In traditional animation, this *speed-up* effect at the beginning and *slow-down* effect at the end is called (highlight:fuchsia text:`ease-in ease-out`). It is a famous principle that is now activated by default in most keyframe-based software. It was popularized as rule #6 of the [12 Basic Principles of Animation](https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation) in the 1981 book "The Illusion of Life: Disney Animation" which chronicles animator practices at Disney Studios dating all the way back to the 1930s.
+In traditional animation, this *speed-up* effect at the beginning and *slow-down* effect at the end is called (fuchsia: ease-in ease-out). It is a famous principle that is now activated by default in most keyframe-based software. It was popularized as rule #6 of the [12 Basic Principles of Animation](https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation) in the 1981 book "The Illusion of Life: Disney Animation" which chronicles animator practices at Disney Studios dating all the way back to the 1930s.
 
 (youtube: yiGY0qiy8fY?t=69)
 
-If you want a more robotic, linear rotation movement, select the specific (highlight:green text:`Property`) you want to fix (here I am adjusting the `Rotation.y` value), select the (highlight:blue text:`Curves`) button at the bottom of the `Animation` window, and set each of your  (highlight:orange text:`Keyframe`) sides (`left` side, `right` side or `both`, depending on the keyframe position) to (highlight:red text:`Linear`). To see this option, you need to right-click on the keyframe.
+If you want a more robotic, linear rotation movement, select the specific (green: Property) you want to fix (here I am adjusting the `Rotation.y` value), select the (blue: Curves) button at the bottom of the `Animation` window, and set each of your  (orange: Keyframe) sides (`left` side, `right` side or `both`, depending on the keyframe position) to (red: Linear). To see this option, you need to right-click on the keyframe.
 
 ![Unity Animation Curves](unity-animation-curves-tangent-linear.png)
 
@@ -95,10 +95,10 @@ Here are a few key points to define when trying to explain how the Unity animati
 - An `Animation Controller` is the actual list of songs waiting to be played by the `Animator`. It is loaded into the `Animator` along with all the `Clips`. If the `Animator` is like a jukebox, the `Animation Controller` is like its playlist. This `Controller` tells the `Animator` which clip to play, and when. If you wish to modify this playlist, select the `Animation Controller` file in the `Project` window and open the `Animator` window. You will see the contents of this playlist and can start modifying it.
 
 ### Animations and the Animator
-To further simplify this relationship, the most important thing to understand is that there are (highlight:orange text:`Animations`) containing keyframes, and then there is an (highlight:blue text:`Animator`) with its (highlight:fuchsia text:`Controller`) that contains the list of which of these (highlight:yellow text:`Animations`) to play and when. This is why there are a two separate windows.
+To further simplify this relationship, the most important thing to understand is that there are (orange: Animations) containing keyframes, and then there is an (blue: Animator) with its (fuchsia: Controller) that contains the list of which of these (yellow: Animations) to play and when. This is why there are a two separate windows.
 
 ![Unity Animator Animation](unity-game-animation-animator.png)
 
-So (highlight:orange text:`Animation`) is like a song, the (highlight:fuchsia text:`Controller`) is like a playlist, and the (highlight:blue text:`Animator`) behaves like its jukebox. Even if you only have one song in your playlist, you still need a jukebox to play it. Later on in a future tutorial we will explore controllers with multiple (highlight:yellow text:`Animation Clips`) that can easily switch in real-time between animations, sometimes based on a fairly complex visual diagram of conditions.
+So (orange: Animation) is like a song, the (fuchsia: Controller) is like a playlist, and the (blue: Animator) behaves like its jukebox. Even if you only have one song in your playlist, you still need a jukebox to play it. Later on in a future tutorial we will explore controllers with multiple (yellow: Animation Clips) that can easily switch in real-time between animations, sometimes based on a fairly complex visual diagram of conditions.
 
 (youtube: 3mIwTWGOMY0)

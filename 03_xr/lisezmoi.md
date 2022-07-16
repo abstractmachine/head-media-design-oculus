@@ -73,11 +73,11 @@ Lorsque Unity a fini d'exporter votre projet, vous devriez voir votre jeu dans v
 Le problème est que nous n'avons pas activé le mode "réalité virtuelle" dans notre jeu. Par conséquent, Oculus considère que Unity nous a envoyé un jeu traditionnel qui doit être joué sur un téléviseur à écran plat. Ainsi, il construit un téléviseur à écran plat pour vous à l'intérieur de votre casque. Peut-être que regarder des téléviseurs à écran plat n'est qu'un entraînement pour notre ~~futur~~ paysage d'enfer dystopique actuel, mais ce n'est probablement pas ce que vous vouliez.
 
 ### Plugin XR
-Nous devons activer le "mode de réalité virtuelle" spécial dans votre projet Unity. Ouvrez le menu `Edit` > `Project Settings`, recherchez la section (highlight:blue text:`XR Plugin Management`) et sélectionnez (highlight:orange text:`Install XR Plugin Management`).
+Nous devons activer le "mode de réalité virtuelle" spécial dans votre projet Unity. Ouvrez le menu `Edit` > `Project Settings`, recherchez la section (blue: XR Plugin Management) et sélectionnez (orange: Install XR Plugin Management).
 
 ![Unity Settings Install XR Plugin](unity-settings-xr-plugin.png)
 
-Une fois le plugin installé, sélectionnez l'onglet (highlight:green text:`Android`) (cf. icône du petit robot) dans cet outil et activez l'option (highlight:sky text:`Oculus`).
+Une fois le plugin installé, sélectionnez l'onglet (green: Android) (cf. icône du petit robot) dans cet outil et activez l'option (sky: Oculus).
 
 ![Unity Settings Oculus](unity-settings-android-oculus.png)
 
@@ -86,7 +86,7 @@ Si vous reconstruisez et exécutez votre application dans votre casque, vous dev
 
 ![Unity Convert Camera to XR Rig](unity-convert-to-xr-rig.png)
 
-Pour *convertir* notre caméra de jeu classique en "rig" compatible avec le casque VR, sélectionnez le bouton (highlight:fuchsia text:`+`), choisissez (highlight:red text:`XR`) > (highlight:red text:`Convert Main Camera to XR Rig`) ; c'est-à-dire « Convertir la caméra principale en XR Rig ».
+Pour *convertir* notre caméra de jeu classique en "rig" compatible avec le casque VR, sélectionnez le bouton (fuchsia: +), choisissez (red: XR) > (red: Convert Main Camera to XR Rig) ; c'est-à-dire « Convertir la caméra principale en XR Rig ».
 
 *Maintenant, enfin*, vous pouvez recréer votre application et l'exécuter sur votre appareil. Vous devriez maintenant voir votre charmant cube 3D rouge flotter dans une réalité virtuelle immersive.
 
