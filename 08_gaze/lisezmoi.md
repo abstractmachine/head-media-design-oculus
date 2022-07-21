@@ -67,17 +67,11 @@ Voici une capture d'écran d'un nouveau (blueish: Script Graph) que j'ai ajouté
 ![Cube New Script Graph](gaze-cube-script-graph.png)
 
 Nous avons créé quatre nœuds dans ce graphique, en utilisant nos nouveaux événements que nous avons importés avec le package `VsGazeDetector` ci-dessus.
-<<<<<<< HEAD
+
 - L'événement (mud: OnGazeEnter) est déclenché chaque fois que le `Ray` entre en collision avec notre (pink: Cube). Chaque fois que cette interaction se produit, le (blueish: Script Graph) définit le `Material` du Cube sur le matériau `Cold` que nous avons créé plus tôt dans ce didacticiel. Comme vous pouvez voir dans l'illustration ci-dessous, cette interaction rend le cube bleu.
 - L'événement (brown: OnGazeExit) est déclenché chaque fois que ce `Ray` sort en collision avec notre (pink: Cube). Cela change le `Material` de l'objet à `Default`.
 - L'événement (yellow: OnGazeStay) est déclenché de manière répétitive tant que nous continuons à interagir avec notre (pink: Cube). Ce concept de `Stay` (*rester*) signifie "tant que ce rayon reste en interaction avec cet objet". Cette action `Stay` déclenche l'action `Rotation` et se répète constamment, pour chaque « *frame* », c'est-à-dire environ soixante fois par seconde tant que nous continuons à regarder l'objet.
 - L'événement (sky: OnGazeTimer) est très pratique et se déclenche chaque fois que nous restons à regarder cet objet plus longtemps qu'un nombre défini de secondes. Ici, nous avons défini cette valeur (sky: Duration) sur (sky: 2) secondes. Lorsque cette action se déclenche, nous remplaçons le `Material` du (pink: Cube) par la couleur `Hot` créée plus tôt dans ce didacticiel. Dans l'illustration ci-dessous, le cube devient rouge chaque fois que la joueuse le regarde pendant plus de `2` secondes. Comme nous n'avons pas besoin de changer constamment cette couleur, nous avons laissé son option `Repeat` décochée.
-=======
-- L'événement (mud: OnGazeEnter) est déclenché chaque fois que le `Ray` entre en collision avec notre (pink: Cube). Chaque fois que cette interaction se produit, le (blueish: Script Graph) définit le `Material` du Cube sur le matériau `Cold` que nous avons créé plus tôt dans ce didacticiel. Comme vous pouvez voir dans l'illustration ci-dessous, cette interaction rend le cube bleu.
-- L'événement (brown: OnGazeExit) est déclenché chaque fois que ce `Ray` sort en collision avec notre (pink: Cube). Cela change le `Material` de l'objet à `Default`.
-- L'événement (yellow: OnGazeStay) est déclenché de manière répétitive tant que nous continuons à interagir avec notre (pink: Cube). Ce concept de `Stay` (*rester*) signifie "tant que ce rayon reste en interaction avec cet objet". Cette action `Stay` déclenche l'action `Rotation` et se répète constamment, pour chaque « *frame* », c'est-à-dire environ soixante fois par seconde tant que nous continuons à regarder l'objet.
-- L'événement (sky: OnGazeTimer) est très pratique et se déclenche chaque fois que nous restons à regarder cet objet plus longtemps qu'un nombre défini de secondes. Ici, nous avons défini cette valeur (sky: Duration) sur (sky: 2) secondes. Lorsque cette action se déclenche, nous remplaçons le `Material` du (pink: Cube) par la couleur `Hot` créée plus tôt dans ce didacticiel. Dans l'illustration ci-dessous, le cube devient rouge chaque fois que la joueuse le regarde pendant plus de `2` secondes. Comme nous n'avons pas besoin de changer constamment cette couleur, nous avons laissé son option `Repeat` décochée.
->>>>>>> 36299d3
 
 ![Gaze Raycast interactions with Cube](gaze-raycast-change-material.gif)
 
@@ -102,8 +96,4 @@ Si vous avez converti votre `Camera` en un (red: XR Rig) à partir des étapes p
 
 ![Unity XR Rig with scripts](unity-xr-rig-with-scripts.png)
 
-<<<<<<< HEAD
 Si, pour une raison quelconque, vous avez commencé à zéro avec une scène vide, ouvrez la nouvelle (cyan: Camera) et chercher son (cyan: XR Rig), puis faites glisser les scripts (pink: GazeRaycaster) et (purple: MouseLookAround) dans l'`Inspector` de cette (cyan: Camera).
-=======
-Si, pour une raison quelconque, vous avez commencé à zéro avec une scène vide, ouvrez la nouvelle (cyan: Camera) et chercher son (cyan: XR Rig), puis faites glisser les scripts (pink: GazeRaycaster) et (purple: MouseLookAround) dans l'`Inspector` de cette (cyan: Camera).
->>>>>>> 36299d3

@@ -8,7 +8,7 @@ Le concept d'images clés a émergé lors de la phase d'industrialisation de la 
 
 Comme l'explique le documentaire suivant sur le studio de Max Fleicher des années 1930, il y a deux premières étapes importantes dans la production de films d'animation : (a) la création de ce qu'ils appellent ici des « key pictures » (images clés), et (b) la création de « in-between drawings » (dessins intermédiaires) que le documentaire appelle aussi « in-betweeners » ou « in-betweens » (entre-deux) :
 
-(youtube: WVsw0rb5LpM)
+(youtube: Xemq4sNfMf8)
 
 Dans ce type d'animation, les images « clés » sont les images importantes au début et à la fin de la séquence d'animation, ainsi que les points visuels clés qui marquent les pics de divers changements de mouvement de chaque personnage et des objets de la scène. Ces images « clés » ne représentent pas toutes les images du mouvement, juste les points *clés* du mouvement. Si vous avez ces points clés, vous pouvez plus facilement combler les lacunes des images * entre les deux * en complétant les positions intermédiaires du personnage lorsqu'il déplace son corps de l'image clé A à l'image clé B, puis à l'image clé C , et ainsi de suite. Les clés ne contiennent pas toutes les images animées. L'ensemble des images *entre* ces images clés seront dessinées plus tard par l'équipe qui s'occupe des « intermédiaires ». Cette équipe s'assurent que chaque image intermédiare du mouvement est correctement dessinée pour que l'ensemble arrive sans accoup à l'image « clé » souhaitée.
 
@@ -95,18 +95,10 @@ Voici quelques concepts clés pour mieux saisir le fonctionnement du système d'
 - Un `Animation Controller` est la liste réelle des chansons en attente d'être jouées par `Animator`. Il est chargé dans `Animator` avec tous les `Clips`. Si l'`Animator` est comme un juke-box, l'`Animation Controller` est comme sa liste de lecture. Ce `Controller` indique à l'`Animator` quel clip lire et quand. Si vous souhaitez modifier ce playlist, sélectionnez le fichier `Animation Controller` dans la fenêtre `Project` et ouvrez la fenêtre `Animator`. Vous verrez le contenu de cette liste de lecture et pourrez commencer à la modifier.
 
 ### Les animations et l'animateur
-<<<<<<< HEAD
 Pour simplifier davantage cette relation, la chose la plus importante à comprendre est qu'il y a des (orange: Animations) contenant des images clés, puis il y a un (blue: Animator) avec son (fuchsia: Controller) qui contient la liste des (yellow: Animations) à jouer et quand. C'est pourquoi il y a deux fenêtres distinctes.
 
 ![Animation Unity Animator](unity-game-animation-animator.png)
 
 Ainsi (orange: Animation) est comme une chanson, le (fuchsia: Controller) est comme une liste de lecture, et l'(blue: Animator) se comporte comme son juke-box. Même si vous n'avez qu'une seule chanson dans votre liste de lecture, vous avez toujours besoin d'un juke-box pour la lire. Plus tard dans un futur tutoriel, nous explorerons les contrôleurs avec plusieurs (yellow: Animation Clip) qui peuvent facilement changer en temps réel l'animation en cours de lecture, parfois sur la base d'un diagramme de conditions assez complexe.
-=======
-Pour simplifier davantage cette relation, la chose la plus importante à comprendre est qu'il y a des (orange: Animations) contenant des images clés, puis il y a un (blue: Animator) avec son (fuchsia: Controller) qui contient la liste des (yellow: Animations) à jouer et quand. C'est pourquoi il y a deux fenêtres distinctes.
-
-![Animation Unity Animator](unity-game-animation-animator.png)
-
-Ainsi (orange: Animation) est comme une chanson, le (fuchsia: Controller) est comme une liste de lecture, et l'(blue: Animator) se comporte comme son juke-box. Même si vous n'avez qu'une seule chanson dans votre liste de lecture, vous avez toujours besoin d'un juke-box pour la lire. Plus tard dans un futur tutoriel, nous explorerons les contrôleurs avec plusieurs (yellow: Animation Clip) qui peuvent facilement changer en temps réel l'animation en cours de lecture, parfois sur la base d'un diagramme de conditions assez complexe.
->>>>>>> 36299d3
 
 (youtube: 3mIwTWGOMY0)

@@ -8,7 +8,7 @@ The concept of keyframes emergerd during the industrialisation phase of animated
 
 As the following documentary of Max Fleicher's studio from the 1930s explains, there are two important early stages in animated film production: (a) the creation of what they here call « key pictures », and (b) the creation of « in-between drawings » which the documentary also calls « in-betweeners » or « in-betweens »:
 
-(youtube: WVsw0rb5LpM)
+(youtube: Xemq4sNfMf8)
 
 In this type of animation, the « key » frames are the important frames at the beginning and the end of the animation sequence, as well as the key visual points that mark the peaks of various movement changes of each character and the objects in the scene. These « key » images do not represent every frame of movement, just the *key* points of the movement. If you have these key points, you can more easily fill in the gaps of images *in-between* by completing the intermediary positions of the character as they move their body from key frame A to key frame B and then on to key frame C, and so on and on. The keys do not contains all animated images, the actual image-by-image changes *in-between* these key frames are drawn by the "in-betweeners" who make sure that each step of the movement is correctly drawn so that it arrives precisely at the desired "key" frame at the end of the movement.
 
@@ -47,11 +47,7 @@ As you can see in the above illustration, by selecting the (purple: Cube) game o
 
 ![Unity Animation Files](unity-animation-files.png)
 
-<<<<<<< HEAD
 When you click that button, the Unity editor does a lot of complex things for you to make your life easier. Take a look at all the things it just connected up. Inside your `Assets` folder you should now see two files: one with the name you gave your new (pink: Animation Clip) and the other the name of the game object you had selected when you pushed the 'Create' button. This second file is the (blueish: Animation Controller) which will list all the possible animation clips your `Game Object` can play. The clip has also automatically been added to a new game object component that you should now see on your `Cube` game object, entitled (brown: Animator). Look inside the `Inspector` window and you should see this new relationship. If you keep your `Cube` selected and open the (cyan: Animator) window, you will also see that Unity has automatically added your new (pink: Spin.anim) clip to the `Cube.controller` file and has been setup as your default animation that will automatically start playing upon `Entry` into the game. And finally, with your `Cube` still selected you should see that the `Animation` is waiting for you to begin animating the various (yellow: Properties) of your (red: Spin) animation.
-=======
-When you click that button, the Unity editor does a lot of complex things for you to make your life easier. Take a look at all the things it just connected up. Inside your `Assets` folder you should now see two files: one with the name you gave your new (pink: Animation Clip) and the other the name of the game object you had selected when you pushed the 'Create' button. This second file is the (blueish: Animation Controller) which will list all the possible animation clips your `Game Object` can play. The clip has also automatically been added to a new game object component that you should now see on your `Cube` game object, entitled (brown: Animator). Look inside the `Inspector` window and you should see this new relationship. If you keep your `Cube` selected and open the (cyan: Animator) window, you will also see that Unity has automatically added your new (pink: Spin.anim) clip to the `Cube.controller` file and has been setup as your default animation that will automatically start playing upon `Entry` into the game. And finally, with your `Cube` still selected you should see that the `Animation` is waiting for you to begin animating the various (yellow: Properties) of your (red: Spin) animation.
->>>>>>> 36299d3
 
 That's a whole lot of connections and relations all simplified into one single button. Since you are probably beginning with Unity, this means that there are a lot of things that you probably don't understand with all of these windows, files, components and objects. Further in this tutorial, we will attempt to break down the meaning of each of these animations components.
 
@@ -99,18 +95,10 @@ Here are a few key points to define when trying to explain how the Unity animati
 - An `Animation Controller` is the actual list of songs waiting to be played by the `Animator`. It is loaded into the `Animator` along with all the `Clips`. If the `Animator` is like a jukebox, the `Animation Controller` is like its playlist. This `Controller` tells the `Animator` which clip to play, and when. If you wish to modify this playlist, select the `Animation Controller` file in the `Project` window and open the `Animator` window. You will see the contents of this playlist and can start modifying it.
 
 ### Animations and the Animator
-<<<<<<< HEAD
 To further simplify this relationship, the most important thing to understand is that there are (orange: Animations) containing keyframes, and then there is an (blue: Animator) with its (fuchsia: Controller) that contains the list of which of these (yellow: Animations) to play and when. This is why there are a two separate windows.
 
 ![Unity Animator Animation](unity-game-animation-animator.png)
 
 So (orange: Animation) is like a song, the (fuchsia: Controller) is like a playlist, and the (blue: Animator) behaves like its jukebox. Even if you only have one song in your playlist, you still need a jukebox to play it. Later on in a future tutorial we will explore controllers with multiple (yellow: Animation Clips) that can easily switch in real-time between animations, sometimes based on a fairly complex visual diagram of conditions.
-=======
-To further simplify this relationship, the most important thing to understand is that there are (orange: Animations) containing keyframes, and then there is an (blue: Animator) with its (fuchsia: Controller) that contains the list of which of these (yellow: Animations) to play and when. This is why there are a two separate windows.
-
-![Unity Animator Animation](unity-game-animation-animator.png)
-
-So (orange: Animation) is like a song, the (fuchsia: Controller) is like a playlist, and the (blue: Animator) behaves like its jukebox. Even if you only have one song in your playlist, you still need a jukebox to play it. Later on in a future tutorial we will explore controllers with multiple (yellow: Animation Clips) that can easily switch in real-time between animations, sometimes based on a fairly complex visual diagram of conditions.
->>>>>>> 36299d3
 
 (youtube: 3mIwTWGOMY0)
