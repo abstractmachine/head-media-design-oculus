@@ -25,6 +25,9 @@ Alors qu'un moteur de jeu vous oblige à apprendre le moteur lui-même, il vous 
 
 Comme vous pouvez le voir, la liste est longue et inclus probablement quelques plateformes inconnus. L'idée est donc qu'au lieu d'avoir à apprendre les détails techniques de chacune de ces plates-formes, tout ce dont vous avez besoin pour créer votre jeu est d'apprendre Unity et l'outil se chargera du reste.
 
+### Commencer
+Ci-dessous, j'ai énuméré quelques exemples. Si vous souhaitez vous lancer directement dans l'utilisation de Unity et de la réalité virtuelle, vous pouvez ignorer cette section et passer directement à l'(tutorial: unity-vr/installation text:installation de Unity).
+
 ### Exemples
 
 La liste des jeux réalisés avec Unity est presque infinie. Voici quelques démonstrations Unity de jeux créés avec l'outil, ainsi que les bandes-annonces de quelques-uns des jeux les plus célèbres créés avec cet outil.
