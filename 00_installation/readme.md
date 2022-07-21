@@ -114,3 +114,7 @@ Here is a good configuration that my colleague [Pierre Rossel](https://github.co
 ```
 scrcpy --crop 1632:1220:50:320
 ```
+
+All the images of the headset from this tutorial — including the `Pairing Code` image above, or the image below from a future tutorial — were taken using this `scrcpy` tool.
+
+![Oculus Hello XR](oculus-hello-xr.png)

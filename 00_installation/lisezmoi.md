@@ -93,7 +93,7 @@ Un autre problème que certaines personnes ont rencontré dans nos projets est l
 Ces instructions peuvent sembler absurdement redondantes, mais compte tenu du nombre de fois où j'ai rencontré ce problème... Ai-je également mentionné combien de fois j'ai vu des personnes se connecter avec différents comptes sur leurs deux appareils ?
 
 ### scrcpy
-* Pour les utilisateurs avancés *
+* Pour codeuses avancées *
 
 Ceci est une installation facultative - * avertissement jargon technique * - mais recommandée : [scrcpy](https://github.com/Genymobile/scrcpy) ("Screen Copy") est un petit outil génial pour afficher le contenu de n'importe lequel de vos périphériques Android sur votre ordinateur. Pourquoi est-ce pratique ? Eh bien, puisque l'Oculus n'est qu'un ordinateur Android étrange assis sur votre visage. Il est donc pratique de pouvoir voir ce que l'Oculus voit depuis une fenêtre de votre ordinateur.
 
@@ -113,3 +113,7 @@ Voici une bonne configuration que mon collègue [Pierre Rossel](https://github.c
 ```
 scrcpy --crop 1632:1220:50:320
 ```
+
+Toutes les images du casque de ce didacticiel, y compris l'image `Pairing Code` ci-dessus ou l'image ci-dessous d'un futur didacticiel, ont été prises à l'aide de cet outil `scrcpy`.
+
+![Oculus Hello XR](oculus-hello-xr.png)

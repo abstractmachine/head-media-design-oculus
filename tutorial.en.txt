@@ -25,7 +25,7 @@ While a game engine requires you to learn the engine itself, it shields you from
 As you can see, the list is long and probably inclused some platforms you've never heard of. So the idea is that instead of having to learn each and every one of these platforms, all you need to make your game is to learn Unity and the tool will take care of the rest.
 
 ### Get Started
-Below I have listed some examples. If you want to jump directly into working with Unity and VR, you can skip this section and move directly to (tutorial: unity-vr/installation text:installing Unity).
+Below I have listed some examples. If you want to jump directly into working with Unity and VR, you can skip this section and move directly to (tutorial:installing Unity link:unity-vr/installation).
 
 ### Examples
 
