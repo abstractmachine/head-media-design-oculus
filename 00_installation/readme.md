@@ -95,7 +95,7 @@ These instructions might seem absurdly redundant, but considering how many times
 
 ### scrcpy
 *Advanced Users Tool Tip*
-
+ 
 This is an optional install — *technical jargon warning* — but recommended: [scrcpy](https://github.com/Genymobile/scrcpy) ("Screen Copy") is an awesome little tool for streaming content from any of your android devices to your computer. Why is that handy? Well, since the Oculus is just an odd-looking Android computer sitting on your face, it is handy to be able to see what the Oculus sees from a window on your computer.
 
 If you use a Mac, and you already have `brew` installed, and you know what the `Terminal` is, you can quickly install `scrcpy` with the following commands:
